@@ -25,8 +25,8 @@ Hummingbird App | Main application  | Dev 		| ![Build status](https://hummingbir
 [Hummingbird Airlines](https://github.com/huaxing-yuan/hummingbird.airlines.svc) | Demo services | OpenSource		| ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20Airlines)
 
 ## Hummingbird UI Framework Resources
-Resource 	    | Description		| Version 	| Build Status 
+Resource 	    | Description		| Build Status 
 ---|---|---|---
-[UI Framework](https://www.nuget.org/packages/Hummingbird.UI/) |	NuGet Package	| Stable | ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20UI)
+[UI Framework](https://www.nuget.org/packages/Hummingbird.UI/) |	NuGet Package	| ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20UI)
 [UI Framework DEMO](https://github.com/huaxing-yuan/hummingbird.ui.demo) | Demo application of US Framework | ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20UI%20Demo)
 [Test Framework](https://www.nuget.org/packages/Hummingbird.TestFramework/)  | NuGet Package		| Stable	| 
