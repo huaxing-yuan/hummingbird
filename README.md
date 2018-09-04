@@ -20,13 +20,13 @@ Resource 	    | Description		| Version 	| Status
 ---|---|---|---
 Hummingbird App | Main application  | Dev 		| ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/TestStudio%20Build?branchName=dev)
  | | | Stable	| ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/TestStudio%20Build?branchName=master)
-![Website](http://www.hummingbird-alm.com)			| hummingbird-alm.com|			| ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20Online)
-![SMS-C Simulator](https://github.com/huaxing-yuan/smsc-simulator) | SMS-C Extension	| OpenSource | ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20Extension%20SMS-C)
-![Hummingbird Airlines](https://github.com/huaxing-yuan/hummingbird.airlines.svc) | Demo services | OpenSource		| ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20Airlines)
+[Website](http://www.hummingbird-alm.com)			| hummingbird-alm.com|			| ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20Online)
+[SMS-C Simulator](https://github.com/huaxing-yuan/smsc-simulator) | SMS-C Extension	| OpenSource | ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20Extension%20SMS-C)
+[Hummingbird Airlines](https://github.com/huaxing-yuan/hummingbird.airlines.svc) | Demo services | OpenSource		| ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20Airlines)
 
 ## Hummingbird UI Framework Resources
 Resource 	    | Description		| Version 	| Build Status 
 ---|---|---|---
-![UI Framework](https://www.nuget.org/packages/Hummingbird.UI/) |	NuGet Package	| Stable | ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20UI)
-![UI Framework DEMO](https://github.com/huaxing-yuan/hummingbird.ui.demo) | Demo application of US Framework | ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20UI%20Demo)
-![Test Framework](https://www.nuget.org/packages/Hummingbird.TestFramework/)  | NuGet Package		| Stable	| 
+[UI Framework](https://www.nuget.org/packages/Hummingbird.UI/) |	NuGet Package	| Stable | ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20UI)
+[UI Framework DEMO](https://github.com/huaxing-yuan/hummingbird.ui.demo) | Demo application of US Framework | ![Build status](https://hummingbird.visualstudio.com/Hummingbird%20ALM/_apis/build/status/Hummingbird%20UI%20Demo)
+[Test Framework](https://www.nuget.org/packages/Hummingbird.TestFramework/)  | NuGet Package		| Stable	| 
