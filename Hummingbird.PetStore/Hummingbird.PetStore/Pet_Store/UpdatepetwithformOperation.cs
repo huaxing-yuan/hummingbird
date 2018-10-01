@@ -27,7 +27,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
         /// </summary>
         [Hummingbird.TestFramework.Services.HttpBodyAttribute]
         [Hummingbird.TestFramework.Services.FormUrlEncodedAttribute]
-        public Hummingbird.PetStore.Pet_Store.Pet_Store.UnnamedClass_1 Body {get; set;}
+        public Hummingbird.PetStore.Pet_Store.Pet_Store.UnnamedClass_0 Body {get; set;}
 
     }
 }

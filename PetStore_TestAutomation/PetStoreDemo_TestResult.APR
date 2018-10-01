@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FunctionalTestReport xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>b968f7a9-622d-419d-81d4-332c94939918</Id>
+  <Name>PetStore</Name>
+  <ItemType>TestSuite</ItemType>
+  <Status>Passed</Status>
+  <StartTime>2018-10-01T23:18:12.9958609+02:00</StartTime>
+  <Items>
+    <ReportItem>
+      <Id>5b0bb371-22ad-4947-a730-af32621dd071</Id>
+      <Name>pet</Name>
+      <ItemType>TestSuite</ItemType>
+      <Status>Passed</Status>
+      <StartTime>2018-10-01T23:20:24.5250432+02:00</StartTime>
+      <Items>
+        <ReportItem>
+          <Id>107901f3-33ce-477e-bcec-c717a6d91250</Id>
+          <Name>findPets</Name>
+          <ItemType>TestCase</ItemType>
+          <Status>Passed</Status>
+          <StartTime>2018-10-01T23:20:24.5250432+02:00</StartTime>
+          <Items>
+            <ReportItem>
+              <Id>f833a082-3967-40c6-951f-978199d72fbe</Id>
+              <Name>findPetsByStatus</Name>
+              <ItemType>TestStep</ItemType>
+              <Status>Passed</Status>
+              <StartTime>2018-10-01T23:20:24.5260334+02:00</StartTime>
+              <Items>
+                <ReportItem>
+                  <Id>52d6e0ef-6011-496c-95e6-89bd34b58d05</Id>
+                  <Name>Check if  is found in RequestObject</Name>
+                  <ItemType>Assertion</ItemType>
+                  <Status>Passed</Status>
+                  <StartTime xsi:nil="true" />
+                  <Description>Check if "name": "tag4" is found in ResponseObject
+Use Regular Expression: False
+Is Case Sensitive: False
+</Description>
+                  <Information />
+                  <DurationTicks xsi:nil="true" />
+                </ReportItem>
+              </Items>
+              <Variables />
+              <Context />
+              <DisplayMessage>Request sent successfully.</DisplayMessage>
+              <Information>Request sent successfully.
+All assertions are passed, The test step is mark to Passed.</Information>
+              <RequestText>GET https://petstore.swagger.io/v2/pet/findByStatus?status=pending HTTP/1.1
+Content-Type: application/json
+
+</RequestText>
+              <ResponseText>HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Connection: close
+Content-Type: application/json
+Date: Mon, 01 Oct 2018 21:20:24 GMT
+Server: Jetty(9.2.9.v20150224)
+
+[
+  {
+    "id": 6,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "Dog 3",
+    "photoUrls": [
+      "url1",
+      "url2"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "tag3"
+      },
+      {
+        "id": 2,
+        "name": "tag4"
+      }
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 193847,
+    "category": {
+      "id": 0,
+      "name": "ABCD"
+    },
+    "name": "doggieUpdated",
+    "photoUrls": [
+      "SampleImage1.png"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "TestTag1"
+      }
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 105,
+    "category": {
+      "id": 1,
+      "name": "test"
+    },
+    "name": "test",
+    "photoUrls": [
+      "test"
+    ],
+    "tags": [],
+    "status": "pending"
+  },
+  {
+    "id": 501,
+    "category": {
+      "id": 90,
+      "name": "CfmqEblQukQc_KIg"
+    },
+    "name": "doggie",
+    "photoUrls": [
+      "-MPp2xbVR0CcUBu6",
+      "rvq5xEHbFYKwFskM",
+      "omIE5pV7gZOv6PLI",
+      "k2AQQjTgbWTpNBod",
+      "G283NnQoUwNlyqA_",
+      "0VgVb66EDelUogTU"
+    ],
+    "tags": [
+      {
+        "id": 117,
+        "name": "7IlfDO_D_b4NZMFU"
+      },
+      {
+        "id": 479,
+        "name": "gx44ZvS7m0enCMm1"
+      },
+      {
+        "id": -214,
+        "name": "B7S9GuecrfCWulRk"
+      }
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 91,
+    "category": {
+      "id": 2,
+      "name": "auto_test_sample_category_updated"
+    },
+    "name": "auto_test_sample_pet_updated",
+    "photoUrls": [
+      "https://auto-test-sample-photo1-updated",
+      "https://auto-test-sample-photo2-updated"
+    ],
+    "tags": [
+      {
+        "id": 2,
+        "name": "auto_test_sample_tag_updated"
+      }
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 920738,
+    "name": "Elwanek",
+    "photoUrls": [],
+    "tags": [],
+    "status": "pending"
+  },
+  {
+    "id": 544169,
+    "name": "Elwanek",
+    "photoUrls": [],
+    "tags": [],
+    "status": "pending"
+  },
+  {
+    "id": 125998,
+    "name": "Elwanek",
+    "photoUrls": [],
+    "tags": [],
+    "status": "pending"
+  },
+  {
+    "id": 805947,
+    "name": "Elwanek",
+    "photoUrls": [],
+    "tags": [],
+    "status": "pending"
+  },
+  {
+    "id": 693770,
+    "name": "Elwanek",
+    "photoUrls": [],
+    "tags": [],
+    "status": "pending"
+  },
+  {
+    "id": 804514,
+    "name": "Elwanek",
+    "photoUrls": [],
+    "tags": [],
+    "status": "pending"
+  },
+  {
+    "id": 990882,
+    "name": "Elwanek",
+    "photoUrls": [],
+    "tags": [],
+    "status": "pending"
+  },
+  {
+    "id": 867657656659,
+    "category": {
+      "id": 0,
+      "name": "ABCD"
+    },
+    "name": "doggieUpdated",
+    "photoUrls": [
+      "SampleImage1.png"
+    ],
+    "tags": [
+      {
+        "id": 0,
+        "name": "TestTag1"
+      }
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 3,
+    "category": {
+      "id": 3,
+      "name": "Cats"
+    },
+    "name": "Cat 3",
+    "photoUrls": [
+      "url1",
+      "url2"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "tag3"
+      },
+      {
+        "id": 2,
+        "name": "tag4"
+      }
+    ],
+    "status": "pending"
+  }
+]
+</ResponseText>
+              <DurationTicks>3759876</DurationTicks>
+            </ReportItem>
+            <ReportItem>
+              <Id>91345f14-7a12-4c25-9fd9-54e3a1d3fbf2</Id>
+              <Name>findPetsByTags</Name>
+              <ItemType>TestStep</ItemType>
+              <Status>Passed</Status>
+              <StartTime>2018-10-01T23:20:24.9015551+02:00</StartTime>
+              <Items>
+                <ReportItem>
+                  <Id>6e1ddf50-5d00-421e-b463-508c62e85ad0</Id>
+                  <Name>Check if  is found in RequestObject</Name>
+                  <ItemType>Assertion</ItemType>
+                  <Status>Passed</Status>
+                  <StartTime xsi:nil="true" />
+                  <Description>Check if Cat is found in ResponseObject
+Use Regular Expression: False
+Is Case Sensitive: False
+</Description>
+                  <Information />
+                  <DurationTicks xsi:nil="true" />
+                </ReportItem>
+              </Items>
+              <Variables />
+              <Context />
+              <DisplayMessage>Request sent successfully.</DisplayMessage>
+              <Information>Request sent successfully.
+All assertions are passed, The test step is mark to Passed.</Information>
+              <RequestText>GET https://petstore.swagger.io/v2/pet/findByTags?tags=tag2%2ctag4 HTTP/1.1
+Content-Type: application/json
+
+</RequestText>
+              <ResponseText>HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Connection: close
+Content-Type: application/json
+Date: Mon, 01 Oct 2018 21:20:25 GMT
+Server: Jetty(9.2.9.v20150224)
+
+[
+  {
+    "id": 6,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "Dog 3",
+    "photoUrls": [
+      "url1",
+      "url2"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "tag3"
+      },
+      {
+        "id": 2,
+        "name": "tag4"
+      }
+    ],
+    "status": "pending"
+  },
+  {
+    "id": 8,
+    "category": {
+      "id": 4,
+      "name": "Lions"
+    },
+    "name": "ASYDog",
+    "photoUrls": [
+      "url1",
+      "url2"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "tag2"
+      },
+      {
+        "id": 2,
+        "name": "tag3"
+      }
+    ],
+    "status": "available"
+  },
+  {
+    "id": 7,
+    "category": {
+      "id": 4,
+      "name": "Lions"
+    },
+    "name": "ljkl",
+    "photoUrls": [
+      "url1",
+      "url2"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "tag1"
+      },
+      {
+        "id": 2,
+        "name": "tag2"
+      }
+    ],
+    "status": "9"
+  },
+  {
+    "id": 5,
+    "category": {
+      "id": 1,
+      "name": "Dogs"
+    },
+    "name": "Dog 2",
+    "photoUrls": [
+      "url1",
+      "url2"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "tag2"
+      },
+      {
+        "id": 2,
+        "name": "tag3"
+      }
+    ],
+    "status": "sold"
+  },
+  {
+    "id": 3,
+    "category": {
+      "id": 3,
+      "name": "Cats"
+    },
+    "name": "Cat 3",
+    "photoUrls": [
+      "url1",
+      "url2"
+    ],
+    "tags": [
+      {
+        "id": 1,
+        "name": "tag3"
+      },
+      {
+        "id": 2,
+        "name": "tag4"
+      }
+    ],
+    "status": "pending"
+  }
+]
+</ResponseText>
+              <DurationTicks>2839084</DurationTicks>
+            </ReportItem>
+          </Items>
+          <Variables />
+          <Context />
+          <DisplayMessage>Running test step: findPetsByTags</DisplayMessage>
+          <DurationTicks>6599846</DurationTicks>
+        </ReportItem>
+        <ReportItem>
+          <Id>d15790b8-9d37-4f7c-ac7d-1fa0c9e76ee0</Id>
+          <Name>updatePets name Cat 4</Name>
+          <ItemType>TestCase</ItemType>
+          <Status>Passed</Status>
+          <StartTime>2018-10-01T23:20:25.1850739+02:00</StartTime>
+          <Items>
+            <ReportItem>
+              <Id>1772bc84-b0e1-49aa-b825-5d84db451e1a</Id>
+              <Name>Send Request</Name>
+              <ItemType>TestStep</ItemType>
+              <Status>Passed</Status>
+              <StartTime>2018-10-01T23:20:25.1860741+02:00</StartTime>
+              <Items />
+              <Variables />
+              <Context />
+              <DisplayMessage>Request sent successfully.</DisplayMessage>
+              <Information>Request sent successfully.</Information>
+              <RequestText>PUT https://petstore.swagger.io/v2/pet HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": 3,
+  "category": {
+    "id": 3,
+    "name": "Cats"
+  },
+  "name": "Cat 4",
+  "photoUrls": [
+    "url1",
+    "url2"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "tag3"
+    },
+    {
+      "id": 2,
+      "name": "tag4"
+    }
+  ],
+  "status": "pending"
+}
+</RequestText>
+              <ResponseText>HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Connection: close
+Content-Type: application/json
+Date: Mon, 01 Oct 2018 21:20:25 GMT
+Server: Jetty(9.2.9.v20150224)
+
+{
+  "id": 3,
+  "category": {
+    "id": 3,
+    "name": "Cats"
+  },
+  "name": "Cat 4",
+  "photoUrls": [
+    "url1",
+    "url2"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "tag3"
+    },
+    {
+      "id": 2,
+      "name": "tag4"
+    }
+  ],
+  "status": "pending"
+}
+</ResponseText>
+              <DurationTicks>3751675</DurationTicks>
+            </ReportItem>
+          </Items>
+          <Variables />
+          <Context />
+          <DisplayMessage>Running test step: Send Request</DisplayMessage>
+          <DurationTicks>3752789</DurationTicks>
+        </ReportItem>
+        <ReportItem>
+          <Id>2da330c6-885d-40e6-b507-231adc7b7cd6</Id>
+          <Name>getPets</Name>
+          <ItemType>TestCase</ItemType>
+          <Status>Passed</Status>
+          <StartTime>2018-10-01T23:20:25.5607194+02:00</StartTime>
+          <Items>
+            <ReportItem>
+              <Id>233ea301-3ae7-4e3c-828c-cdbea5297f21</Id>
+              <Name>getPets</Name>
+              <ItemType>TestStep</ItemType>
+              <Status>Passed</Status>
+              <StartTime>2018-10-01T23:20:25.5607194+02:00</StartTime>
+              <Items>
+                <ReportItem>
+                  <Id>36d29b12-610f-47d9-8363-1f40ef23d548</Id>
+                  <Name>Check if  is found in RequestObject</Name>
+                  <ItemType>Assertion</ItemType>
+                  <Status>Passed</Status>
+                  <StartTime xsi:nil="true" />
+                  <Description>Check if "name": "tag3" is found in ResponseObject
+Use Regular Expression: False
+Is Case Sensitive: False
+</Description>
+                  <Information />
+                  <DurationTicks xsi:nil="true" />
+                </ReportItem>
+                <ReportItem>
+                  <Id>1ea2b8b5-6712-4c63-942e-a28b154f531b</Id>
+                  <Name>Check if  is found in RequestObject</Name>
+                  <ItemType>Assertion</ItemType>
+                  <Status>Passed</Status>
+                  <StartTime xsi:nil="true" />
+                  <Description>Check if "name": "tag4" is found in ResponseObject
+Use Regular Expression: False
+Is Case Sensitive: False
+</Description>
+                  <Information />
+                  <DurationTicks xsi:nil="true" />
+                </ReportItem>
+                <ReportItem>
+                  <Id>b72bc3df-b32c-4d9c-a320-db8ead190922</Id>
+                  <Name>Check if  is not found in RequestObject</Name>
+                  <ItemType>Assertion</ItemType>
+                  <Status>Passed</Status>
+                  <StartTime xsi:nil="true" />
+                  <Description>Check if "name": "tag2" is not found in ResponseObject
+Use Regular Expression: False
+Is Case Sensitive: False
+</Description>
+                  <Information />
+                  <DurationTicks xsi:nil="true" />
+                </ReportItem>
+              </Items>
+              <Variables />
+              <Context />
+              <DisplayMessage>Request sent successfully.</DisplayMessage>
+              <Information>Request sent successfully.
+All assertions are passed, The test step is mark to Passed.</Information>
+              <RequestText>GET https://petstore.swagger.io/v2/pet/3 HTTP/1.1
+Content-Type: application/json
+
+</RequestText>
+              <ResponseText>HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Connection: close
+Content-Type: application/json
+Date: Mon, 01 Oct 2018 21:20:25 GMT
+Server: Jetty(9.2.9.v20150224)
+
+{
+  "id": 3,
+  "category": {
+    "id": 3,
+    "name": "Cats"
+  },
+  "name": "Cat 4",
+  "photoUrls": [
+    "url1",
+    "url2"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "tag3"
+    },
+    {
+      "id": 2,
+      "name": "tag4"
+    }
+  ],
+  "status": "pending"
+}
+</ResponseText>
+              <DurationTicks>2790869</DurationTicks>
+            </ReportItem>
+          </Items>
+          <Variables />
+          <Context />
+          <DisplayMessage>Running test step: getPets</DisplayMessage>
+          <DurationTicks>2791287</DurationTicks>
+        </ReportItem>
+        <ReportItem>
+          <Id>07b691cc-60dd-40d7-9a6c-5f1875004826</Id>
+          <Name>updatePets name Cat 3</Name>
+          <ItemType>TestCase</ItemType>
+          <Status>Passed</Status>
+          <StartTime>2018-10-01T23:20:25.8401632+02:00</StartTime>
+          <Items>
+            <ReportItem>
+              <Id>7f2b69fd-11cd-4ac8-9085-412982fe99e2</Id>
+              <Name>Send Request</Name>
+              <ItemType>TestStep</ItemType>
+              <Status>Passed</Status>
+              <StartTime>2018-10-01T23:20:25.8401632+02:00</StartTime>
+              <Items />
+              <Variables />
+              <Context />
+              <DisplayMessage>Request sent successfully.</DisplayMessage>
+              <Information>Request sent successfully.</Information>
+              <RequestText>PUT https://petstore.swagger.io/v2/pet HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": 3,
+  "category": {
+    "id": 3,
+    "name": "Cats"
+  },
+  "name": "Cat 3",
+  "photoUrls": [
+    "url1",
+    "url2"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "tag3"
+    },
+    {
+      "id": 2,
+      "name": "tag4"
+    }
+  ],
+  "status": "pending"
+}
+</RequestText>
+              <ResponseText>HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Connection: close
+Content-Type: application/json
+Date: Mon, 01 Oct 2018 21:20:26 GMT
+Server: Jetty(9.2.9.v20150224)
+
+{
+  "id": 3,
+  "category": {
+    "id": 3,
+    "name": "Cats"
+  },
+  "name": "Cat 3",
+  "photoUrls": [
+    "url1",
+    "url2"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "tag3"
+    },
+    {
+      "id": 2,
+      "name": "tag4"
+    }
+  ],
+  "status": "pending"
+}
+</ResponseText>
+              <DurationTicks>3737495</DurationTicks>
+            </ReportItem>
+          </Items>
+          <Variables />
+          <Context />
+          <DisplayMessage>Running test step: Send Request</DisplayMessage>
+          <DurationTicks>3737866</DurationTicks>
+        </ReportItem>
+        <ReportItem>
+          <Id>64b04fb8-925e-4c45-b1e8-1c452b4bd955</Id>
+          <Name>getPets and check name updated</Name>
+          <ItemType>TestCase</ItemType>
+          <Status>Passed</Status>
+          <StartTime>2018-10-01T23:20:26.2141324+02:00</StartTime>
+          <Items>
+            <ReportItem>
+              <Id>14cf9b1b-1246-49f8-b6c0-852f942aea6e</Id>
+              <Name>Send Request</Name>
+              <ItemType>TestStep</ItemType>
+              <Status>Passed</Status>
+              <StartTime>2018-10-01T23:20:26.2141324+02:00</StartTime>
+              <Items>
+                <ReportItem>
+                  <Id>890e18a0-2dc0-4cb1-852c-c790cd2d7a2c</Id>
+                  <Name>Check if  is found in RequestObject</Name>
+                  <ItemType>Assertion</ItemType>
+                  <Status>Passed</Status>
+                  <StartTime xsi:nil="true" />
+                  <Description>Check if "name": "Cat 3" is found in ResponseObject
+Use Regular Expression: False
+Is Case Sensitive: False
+</Description>
+                  <Information />
+                  <DurationTicks xsi:nil="true" />
+                </ReportItem>
+                <ReportItem>
+                  <Id>3b283355-baf2-4805-bbbe-9a1b607732b1</Id>
+                  <Name>Check if  is not found in RequestObject</Name>
+                  <ItemType>Assertion</ItemType>
+                  <Status>Passed</Status>
+                  <StartTime xsi:nil="true" />
+                  <Description>Check if "name": "Cat 4" is not found in ResponseObject
+Use Regular Expression: False
+Is Case Sensitive: False
+</Description>
+                  <Information />
+                  <DurationTicks xsi:nil="true" />
+                </ReportItem>
+              </Items>
+              <Variables />
+              <Context />
+              <DisplayMessage>Request sent successfully.</DisplayMessage>
+              <Information>Request sent successfully.
+All assertions are passed, The test step is mark to Passed.</Information>
+              <RequestText>GET https://petstore.swagger.io/v2/pet/3 HTTP/1.1
+Content-Type: application/json
+
+</RequestText>
+              <ResponseText>HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Connection: close
+Content-Type: application/json
+Date: Mon, 01 Oct 2018 21:20:26 GMT
+Server: Jetty(9.2.9.v20150224)
+
+{
+  "id": 3,
+  "category": {
+    "id": 3,
+    "name": "Cats"
+  },
+  "name": "Cat 3",
+  "photoUrls": [
+    "url1",
+    "url2"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "tag3"
+    },
+    {
+      "id": 2,
+      "name": "tag4"
+    }
+  ],
+  "status": "pending"
+}
+</ResponseText>
+              <DurationTicks>2841497</DurationTicks>
+            </ReportItem>
+          </Items>
+          <Variables />
+          <Context />
+          <DisplayMessage>Running test step: Send Request</DisplayMessage>
+          <DurationTicks>2842192</DurationTicks>
+        </ReportItem>
+      </Items>
+      <Variables />
+      <Context />
+      <DisplayMessage>Running test case: getPets and check name updated</DisplayMessage>
+      <DurationTicks>19726157</DurationTicks>
+    </ReportItem>
+  </Items>
+  <Variables />
+  <DurationTicks>19070423</DurationTicks>
+  <DateGenerated>2018-10-01T23:20:48.8444664+02:00</DateGenerated>
+</FunctionalTestReport>

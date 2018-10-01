@@ -77,8 +77,8 @@
 		<Compile Include="Pet_Store\Order_Status.cs" />
 		<Compile Include="Pet_Store\Pet_Status_In_The_Store.cs" />
 		<Compile Include="Pet_Store\Resusableschemas.cs" />
-		<Compile Include="Pet_Store\Status0.cs" />
-		<Compile Include="Pet_Store\Unnamedclass_1.cs" />
+		<Compile Include="Pet_Store\Status.cs" />
+		<Compile Include="Pet_Store\Unnamedclass_0.cs" />
 		<Compile Include="Pet_Store\AddpetOperation.cs" />
 		<Compile Include="Pet_Store\UpdatepetOperation.cs" />
 		<Compile Include="Pet_Store\FindpetsbystatusOperation.cs" />

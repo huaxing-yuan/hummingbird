@@ -19,7 +19,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
         /// Status values that need to be considered for filter
         /// </summary>
         [Hummingbird.TestFramework.Services.QueryFieldAttribute("status", QueryFieldFormat.PlainText)]
-        public Hummingbird.PetStore.Pet_Store.Pet_Store.Status0[] status {get; set;}
+        public Hummingbird.PetStore.Pet_Store.Pet_Store.Status[] status {get; set;}
 
     }
 }
