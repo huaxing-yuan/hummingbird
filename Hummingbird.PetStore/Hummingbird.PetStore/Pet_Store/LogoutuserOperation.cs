@@ -13,6 +13,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
     /// Logs out current logged in user session
     ///</summary>
     [Serializable]    
+    
     public class logoutUser {
         
     }

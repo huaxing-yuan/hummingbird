@@ -11,7 +11,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
 
     [Serializable]
     /// <summary>
-    /// </summary>   
+    /// </summary>
     public class UnnamedClass_0{
         public string name {get; set;} 
 

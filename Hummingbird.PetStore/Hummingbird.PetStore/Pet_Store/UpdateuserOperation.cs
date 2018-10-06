@@ -13,6 +13,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
     /// Updated user
     ///</summary>
     [Serializable]    
+    
     public class updateUser {
         
         /// <summary>

@@ -13,6 +13,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
     /// Delete user
     ///</summary>
     [Serializable]    
+    
     public class deleteUser {
         
         /// <summary>

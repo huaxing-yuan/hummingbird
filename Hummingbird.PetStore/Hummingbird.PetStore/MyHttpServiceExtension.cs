@@ -117,7 +117,7 @@ namespace Hummingbird.PetStore
                 UriTemplate = "https://petstore.swagger.io/v2",
                 Path = "/pet/{petId}",
                 ApplicationName = "Pet Store",
-                BodySerializer = Hummingbird.TestFramework.Serialization.AbstractSerializer.GetInstance(typeof(Hummingbird.TestFramework.Serialization.JsonSerializer)),
+                BodySerializer = Hummingbird.TestFramework.Serialization.AbstractSerializer.GetInstance(typeof(Hummingbird.TestFramework.Serialization.FormUrlEncodedSerializer)),
                 ServiceCategory = "Pet Store",
                 ServiceName = "pet",
             },

@@ -13,6 +13,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
     /// uploads an image
     ///</summary>
     [Serializable]    
+    
     public class uploadFile {
         
         /// <summary>

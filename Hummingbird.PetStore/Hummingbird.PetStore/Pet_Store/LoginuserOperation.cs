@@ -13,6 +13,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
     /// Logs user into the system
     ///</summary>
     [Serializable]    
+    
     public class loginUser {
         
         /// <summary>

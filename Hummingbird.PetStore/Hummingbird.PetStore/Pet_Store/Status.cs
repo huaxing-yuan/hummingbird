@@ -11,15 +11,15 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
 {
     
     ///<summary>
-    /// 
+    /// Order Status
     ///</summary>
     [Serializable]    
-    public enum Status {
-       [EnumMember(Value="available")]
-       Available,
-       [EnumMember(Value="pending")]
-       Pending,
-       [EnumMember(Value="sold")]
-       Sold
+    public enum status {
+       [EnumMember(Value="placed")]
+       placed,
+       [EnumMember(Value="approved")]
+       approved,
+       [EnumMember(Value="delivered")]
+       delivered
     }
 }

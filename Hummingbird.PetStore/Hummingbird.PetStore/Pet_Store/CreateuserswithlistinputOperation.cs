@@ -13,6 +13,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
     /// Creates list of users with given input array
     ///</summary>
     [Serializable]    
+    
     public class createUsersWithListInput {
         
         /// <summary>

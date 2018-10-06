@@ -13,6 +13,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
     /// Finds Pets by tags
     ///</summary>
     [Serializable]    
+    
     public class findPetsByTags {
         
         /// <summary>

@@ -11,7 +11,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
 
     [Serializable]
     /// <summary>
-    /// </summary>   
+    /// </summary>
     public class Order{
         public long id {get; set;} 
 
@@ -21,7 +21,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
 
         public DateTime shipDate {get; set;} 
 
-        public Hummingbird.PetStore.Pet_Store.Pet_Store.Order_Status status {get; set;} 
+        public Hummingbird.PetStore.Pet_Store.Pet_Store.status status {get; set;} 
 
         public bool complete {get; set;} 
 
@@ -30,7 +30,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
 
     [Serializable]
     /// <summary>
-    /// </summary>   
+    /// </summary>
     public class User{
         public long id {get; set;} 
 
@@ -53,7 +53,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
 
     [Serializable]
     /// <summary>
-    /// </summary>   
+    /// </summary>
     public class Category{
         public long id {get; set;} 
 
@@ -64,7 +64,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
 
     [Serializable]
     /// <summary>
-    /// </summary>   
+    /// </summary>
     public class Tag{
         public long id {get; set;} 
 
@@ -75,7 +75,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
 
     [Serializable]
     /// <summary>
-    /// </summary>   
+    /// </summary>
     public class Pet{
         public long id {get; set;} 
 
@@ -87,14 +87,14 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
 
         public Hummingbird.PetStore.Pet_Store.Pet_Store.Tag[] tags {get; set;} 
 
-        public Hummingbird.PetStore.Pet_Store.Pet_Store.Pet_Status_In_The_Store status {get; set;} 
+        public Hummingbird.PetStore.Pet_Store.Pet_Store.status_1 status {get; set;} 
 
     }
 
 
     [Serializable]
     /// <summary>
-    /// </summary>   
+    /// </summary>
     public class ApiResponse{
         public int code {get; set;} 
 

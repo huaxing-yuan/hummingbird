@@ -13,6 +13,7 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
     /// Get user by user name
     ///</summary>
     [Serializable]    
+    
     public class getUserByName {
         
         /// <summary>

@@ -13,13 +13,14 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
     /// Finds Pets by status
     ///</summary>
     [Serializable]    
+    
     public class findPetsByStatus {
         
         /// <summary>
         /// Status values that need to be considered for filter
         /// </summary>
         [Hummingbird.TestFramework.Services.QueryFieldAttribute("status", QueryFieldFormat.PlainText)]
-        public Hummingbird.PetStore.Pet_Store.Pet_Store.Status[] status {get; set;}
+        public Hummingbird.PetStore.Pet_Store.Pet_Store.status_2[] status {get; set;}
 
     }
 }

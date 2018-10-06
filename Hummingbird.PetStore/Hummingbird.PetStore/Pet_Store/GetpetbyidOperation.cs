@@ -13,8 +13,11 @@ namespace Hummingbird.PetStore.Pet_Store.Pet_Store
     /// Find pet by ID
     ///</summary>
     [Serializable]    
+    
     public class getPetById {
         
+        [Hummingbird.TestFramework.Services.HttpHeaderAttribute("api_key")]
+        public string api_key {get; set;}
         /// <summary>
         /// ID of pet to return
         /// </summary>
