@@ -1,6 +1,6 @@
 # The Hummingbird project
 The Hummingbird projct is a complete solution for API Testing, Service Simulation and Test Automation.
-![Release Article](https://www.linkedin.com/pulse/hummingbird-complete-solution-api-testing-service-simulation-yuan)
+![Release Article](https://www.linkedin.com/pulse/hummingbird-october-2018-release-overview-huaxing-yuan)
 
 
 ## Components
