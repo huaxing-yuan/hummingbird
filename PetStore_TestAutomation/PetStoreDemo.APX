@@ -1,12 +1,183 @@
-<AutomationProject xmlns="http://www.hummingbird-alm.com/testframework/201610" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Context/><CustomVariables/><Description i:nil="true"/><Id>b968f7a9-622d-419d-81d4-332c94939918</Id><IsDisabled>false</IsDisabled><Name>PetStore</Name><CreatedBy>Huaxing YUAN</CreatedBy><CreationDate xmlns:a="http://schemas.datacontract.org/2004/07/System"><a:DateTime>2018-10-01T21:00:31.655629Z</a:DateTime><a:OffsetMinutes>120</a:OffsetMinutes></CreationDate><LastSaveDate xmlns:a="http://schemas.datacontract.org/2004/07/System"><a:DateTime>2018-11-13T22:43:29.8508055Z</a:DateTime><a:OffsetMinutes>60</a:OffsetMinutes></LastSaveDate><LastSavedBy>Huaxing YUAN</LastSavedBy><Profile><Credentials xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Backend</a:string><a:string>Middleware</a:string></Credentials><Description i:nil="true"/><EnabledServers><item><key><guid xmlns="">c43d2893-6979-4322-9e29-73b1f6c732be</guid></key><value><boolean xmlns="">true</boolean></value></item><item><key><guid xmlns="">a7538e94-daf2-4019-9592-cb3aebac7845</guid></key><value><boolean xmlns="">true</boolean></value></item><item><key><guid xmlns="">9908954e-c54d-4085-b8ee-bc3e7e676f90</guid></key><value><boolean xmlns="">true</boolean></value></item></EnabledServers><EnvironmentVariables xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><Environments><TestEnvironment><Credentials><VariableOfCredentialI6XIIt6Z><Name>Backend</Name><Value><AuthenticationMode>Basic</AuthenticationMode><EncPassword>STFOxpqTVL45HHnB0KUP3w==</EncPassword><Username>Backendd</Username></Value></VariableOfCredentialI6XIIt6Z><VariableOfCredentialI6XIIt6Z><Name>Middleware</Name><Value><AuthenticationMode>Basic</AuthenticationMode><EncPassword>iYNJybHTLwBTFAoLOeGStJfFNUWX2snyxw6Utpjbsw0=</EncPassword><Username>Middlewared</Username></Value></VariableOfCredentialI6XIIt6Z></Credentials><EnvironmentVariables/><Name>Default</Name><SystemVariables><Variable><Name>HB_AIRLINES</Name><Value/></Variable></SystemVariables></TestEnvironment><TestEnvironment><Credentials><VariableOfCredentialI6XIIt6Z><Name>Backend</Name><Value><AuthenticationMode>Basic</AuthenticationMode><EncPassword>nQhudsFW/u7vfUXzwzR1HQ==</EncPassword><Username>Backend1</Username></Value></VariableOfCredentialI6XIIt6Z><VariableOfCredentialI6XIIt6Z><Name>Middleware</Name><Value><AuthenticationMode>Basic</AuthenticationMode><EncPassword>iYNJybHTLwBTFAoLOeGStJfFNUWX2snyxw6Utpjbsw0=</EncPassword><Username>Middleware1</Username></Value></VariableOfCredentialI6XIIt6Z></Credentials><EnvironmentVariables/><Name>Staging</Name><SystemVariables><Variable><Name>HB_AIRLINES</Name><Value>hummingbirdalm-staging.azurewebsites.net</Value></Variable></SystemVariables></TestEnvironment><TestEnvironment><Credentials><VariableOfCredentialI6XIIt6Z><Name>Backend</Name><Value><AuthenticationMode>Anonymous</AuthenticationMode><EncPassword>inVu0trw/ZHy0n2Bz3yZZw==</EncPassword><Username i:nil="true"/></Value></VariableOfCredentialI6XIIt6Z><VariableOfCredentialI6XIIt6Z><Name>Middleware</Name><Value><AuthenticationMode>Anonymous</AuthenticationMode><EncPassword>inVu0trw/ZHy0n2Bz3yZZw==</EncPassword><Username i:nil="true"/></Value></VariableOfCredentialI6XIIt6Z></Credentials><EnvironmentVariables/><Name>Default</Name><SystemVariables><Variable><Name>HB_AIRLINES</Name><Value i:nil="true"/></Variable></SystemVariables></TestEnvironment></Environments><IsInMemoryProfile>true</IsInMemoryProfile><Name>Default_clone</Name><SavedResponses xmlns:a="http://www.hummingbird-alm.com/testframework/201610"><a:SavedResponse><a:ErrorType i:nil="true"/><a:HttpStatusCode>OK</a:HttpStatusCode><a:MetadataId>540f91b7-58bd-0c95-7dd1-ebe08e52e7f4</a:MetadataId><a:ReplyDelay>10</a:ReplyDelay><a:ResponseCondition i:nil="true" xmlns:b="http://www.hummingbird-alm.com/testframework/201610"/><a:ResponseName>Default</a:ResponseName><a:ServerName>SOAP Server</a:ServerName><a:ThrowsException>false</a:ThrowsException><a:Value>&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AutomationProject xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.hummingbird-alm.com/testframework/201610">
+  <Context />
+  <CustomVariables />
+  <Description i:nil="true" />
+  <Id>b968f7a9-622d-419d-81d4-332c94939918</Id>
+  <IsDisabled>false</IsDisabled>
+  <Name>PetStore</Name>
+  <CreatedBy>Huaxing YUAN</CreatedBy>
+  <CreationDate xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:DateTime>2018-10-01T21:00:31.655629Z</d2p1:DateTime>
+    <d2p1:OffsetMinutes>120</d2p1:OffsetMinutes>
+  </CreationDate>
+  <LastSaveDate xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:DateTime>2018-12-07T22:10:17.6264769Z</d2p1:DateTime>
+    <d2p1:OffsetMinutes>60</d2p1:OffsetMinutes>
+  </LastSaveDate>
+  <LastSavedBy>Huaxing YUAN</LastSavedBy>
+  <Profile>
+    <Credentials xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+      <d3p1:string>Backend</d3p1:string>
+      <d3p1:string>Middleware</d3p1:string>
+    </Credentials>
+    <Description i:nil="true" />
+    <EnabledServers>
+      <item>
+        <key>
+          <guid xmlns="">c43d2893-6979-4322-9e29-73b1f6c732be</guid>
+        </key>
+        <value>
+          <boolean xmlns="">true</boolean>
+        </value>
+      </item>
+      <item>
+        <key>
+          <guid xmlns="">a7538e94-daf2-4019-9592-cb3aebac7845</guid>
+        </key>
+        <value>
+          <boolean xmlns="">true</boolean>
+        </value>
+      </item>
+      <item>
+        <key>
+          <guid xmlns="">9908954e-c54d-4085-b8ee-bc3e7e676f90</guid>
+        </key>
+        <value>
+          <boolean xmlns="">true</boolean>
+        </value>
+      </item>
+    </EnabledServers>
+    <EnvironmentVariables xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <Environments>
+      <TestEnvironment>
+        <Credentials>
+          <VariableOfCredentialI6XIIt6Z>
+            <Name>Backend</Name>
+            <Value>
+              <AuthenticationMode>Basic</AuthenticationMode>
+              <EncPassword>STFOxpqTVL45HHnB0KUP3w==</EncPassword>
+              <Username>Backendd</Username>
+            </Value>
+          </VariableOfCredentialI6XIIt6Z>
+          <VariableOfCredentialI6XIIt6Z>
+            <Name>Middleware</Name>
+            <Value>
+              <AuthenticationMode>Basic</AuthenticationMode>
+              <EncPassword>iYNJybHTLwBTFAoLOeGStJfFNUWX2snyxw6Utpjbsw0=</EncPassword>
+              <Username>Middlewared</Username>
+            </Value>
+          </VariableOfCredentialI6XIIt6Z>
+        </Credentials>
+        <EnvironmentVariables />
+        <Name>Default</Name>
+        <SystemVariables>
+          <Variable>
+            <Name>HB_AIRLINES</Name>
+            <Value></Value>
+          </Variable>
+        </SystemVariables>
+      </TestEnvironment>
+      <TestEnvironment>
+        <Credentials>
+          <VariableOfCredentialI6XIIt6Z>
+            <Name>Backend</Name>
+            <Value>
+              <AuthenticationMode>Basic</AuthenticationMode>
+              <EncPassword>nQhudsFW/u7vfUXzwzR1HQ==</EncPassword>
+              <Username>Backend1</Username>
+            </Value>
+          </VariableOfCredentialI6XIIt6Z>
+          <VariableOfCredentialI6XIIt6Z>
+            <Name>Middleware</Name>
+            <Value>
+              <AuthenticationMode>Basic</AuthenticationMode>
+              <EncPassword>iYNJybHTLwBTFAoLOeGStJfFNUWX2snyxw6Utpjbsw0=</EncPassword>
+              <Username>Middleware1</Username>
+            </Value>
+          </VariableOfCredentialI6XIIt6Z>
+        </Credentials>
+        <EnvironmentVariables />
+        <Name>Staging</Name>
+        <SystemVariables>
+          <Variable>
+            <Name>HB_AIRLINES</Name>
+            <Value>hummingbirdalm-staging.azurewebsites.net</Value>
+          </Variable>
+        </SystemVariables>
+      </TestEnvironment>
+      <TestEnvironment>
+        <Credentials>
+          <VariableOfCredentialI6XIIt6Z>
+            <Name>Backend</Name>
+            <Value>
+              <AuthenticationMode>Anonymous</AuthenticationMode>
+              <EncPassword>inVu0trw/ZHy0n2Bz3yZZw==</EncPassword>
+              <Username i:nil="true" />
+            </Value>
+          </VariableOfCredentialI6XIIt6Z>
+          <VariableOfCredentialI6XIIt6Z>
+            <Name>Middleware</Name>
+            <Value>
+              <AuthenticationMode>Anonymous</AuthenticationMode>
+              <EncPassword>inVu0trw/ZHy0n2Bz3yZZw==</EncPassword>
+              <Username i:nil="true" />
+            </Value>
+          </VariableOfCredentialI6XIIt6Z>
+        </Credentials>
+        <EnvironmentVariables />
+        <Name>Default</Name>
+        <SystemVariables>
+          <Variable>
+            <Name>HB_AIRLINES</Name>
+            <Value i:nil="true" />
+          </Variable>
+        </SystemVariables>
+      </TestEnvironment>
+    </Environments>
+    <IsInMemoryProfile>true</IsInMemoryProfile>
+    <Name>Default_clone</Name>
+    <SavedResponses>
+      <SavedResponse>
+        <ErrorType i:nil="true" />
+        <HttpStatusCode>OK</HttpStatusCode>
+        <MetadataId>540f91b7-58bd-0c95-7dd1-ebe08e52e7f4</MetadataId>
+        <ReplyDelay>10</ReplyDelay>
+        <ResponseCondition i:nil="true" />
+        <ResponseName>Default</ResponseName>
+        <ServerName>SOAP Server</ServerName>
+        <ThrowsException>false</ThrowsException>
+        <Value>&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;
   &lt;s:Header /&gt;
   &lt;s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
     &lt;jaxWsTest1Response xmlns="http://example.com/sample"&gt;
       &lt;return xmlns=""&gt;10 seconds delay&lt;/return&gt;
     &lt;/jaxWsTest1Response&gt;
   &lt;/s:Body&gt;
-&lt;/s:Envelope&gt;</a:Value></a:SavedResponse><a:SavedResponse><a:ErrorType i:nil="true"/><a:HttpStatusCode>OK</a:HttpStatusCode><a:MetadataId>83155df4-73ae-401f-ab07-aaaa7d2c8efb</a:MetadataId><a:ReplyDelay>0</a:ReplyDelay><a:ResponseCondition i:nil="true" xmlns:b="http://www.hummingbird-alm.com/testframework/201610"/><a:ResponseName>Default</a:ResponseName><a:ServerName>HTTP Server</a:ServerName><a:ThrowsException>false</a:ThrowsException><a:Value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
-&lt;PUSHREPLY /&gt;</a:Value></a:SavedResponse><a:SavedResponse><a:ErrorType i:nil="true"/><a:HttpStatusCode>OK</a:HttpStatusCode><a:MetadataId>21e6af95-4c79-41d7-8fec-23f8c19d4f25</a:MetadataId><a:ReplyDelay>0</a:ReplyDelay><a:ResponseCondition i:nil="true" xmlns:b="http://www.hummingbird-alm.com/testframework/201610"/><a:ResponseName>Default</a:ResponseName><a:ServerName>HTTP Server</a:ServerName><a:ThrowsException>false</a:ThrowsException><a:Value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;/s:Envelope&gt;</Value>
+      </SavedResponse>
+      <SavedResponse>
+        <ErrorType i:nil="true" />
+        <HttpStatusCode>OK</HttpStatusCode>
+        <MetadataId>83155df4-73ae-401f-ab07-aaaa7d2c8efb</MetadataId>
+        <ReplyDelay>0</ReplyDelay>
+        <ResponseCondition i:nil="true" />
+        <ResponseName>Default</ResponseName>
+        <ServerName>HTTP Server</ServerName>
+        <ThrowsException>false</ThrowsException>
+        <Value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;PUSHREPLY /&gt;</Value>
+      </SavedResponse>
+      <SavedResponse>
+        <ErrorType i:nil="true" />
+        <HttpStatusCode>OK</HttpStatusCode>
+        <MetadataId>21e6af95-4c79-41d7-8fec-23f8c19d4f25</MetadataId>
+        <ReplyDelay>0</ReplyDelay>
+        <ResponseCondition i:nil="true" />
+        <ResponseName>Default</ResponseName>
+        <ServerName>HTTP Server</ServerName>
+        <ThrowsException>false</ThrowsException>
+        <Value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;GenericHttpResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
   &lt;HttpCode&gt;OK&lt;/HttpCode&gt;
   &lt;Version&gt;Version11&lt;/Version&gt;
@@ -23,7 +194,23 @@
     &lt;/Variable&gt;
   &lt;/Headers&gt;
   &lt;Body&gt;This is the default response of hummingbird generic response.&lt;/Body&gt;
-&lt;/GenericHttpResponse&gt;</a:Value></a:SavedResponse><a:SavedResponse><a:ErrorType i:nil="true"/><a:HttpStatusCode>OK</a:HttpStatusCode><a:MetadataId>21e6af95-4c79-41d7-8fec-23f8c19d4f25</a:MetadataId><a:ReplyDelay>0</a:ReplyDelay><a:ResponseCondition i:type="b:SimpleResponseCondition" xmlns:b="http://www.hummingbird-alm.com/testframework/201610"><b:CaseSensitive>false</b:CaseSensitive><b:Operator>Contains</b:Operator><b:Path>Uri</b:Path><b:Value>helloworld</b:Value></a:ResponseCondition><a:ResponseName>anotherhandler</a:ResponseName><a:ServerName>HTTP Server</a:ServerName><a:ThrowsException>false</a:ThrowsException><a:Value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;/GenericHttpResponse&gt;</Value>
+      </SavedResponse>
+      <SavedResponse>
+        <ErrorType i:nil="true" />
+        <HttpStatusCode>OK</HttpStatusCode>
+        <MetadataId>21e6af95-4c79-41d7-8fec-23f8c19d4f25</MetadataId>
+        <ReplyDelay>0</ReplyDelay>
+        <ResponseCondition i:type="SimpleResponseCondition">
+          <CaseSensitive>false</CaseSensitive>
+          <Operator>Contains</Operator>
+          <Path>Uri</Path>
+          <Value>helloworld</Value>
+        </ResponseCondition>
+        <ResponseName>anotherhandler</ResponseName>
+        <ServerName>HTTP Server</ServerName>
+        <ThrowsException>false</ThrowsException>
+        <Value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
 &lt;GenericHttpResponse xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&gt;
   &lt;HttpCode&gt;OK&lt;/HttpCode&gt;
   &lt;Version&gt;Version11&lt;/Version&gt;
@@ -35,7 +222,18 @@
     &lt;/Variable&gt;
   &lt;/Headers&gt;
   &lt;Body&gt;This is a response where the uri contains helloworld&lt;/Body&gt;
-&lt;/GenericHttpResponse&gt;</a:Value></a:SavedResponse><a:SavedResponse><a:ErrorType i:nil="true"/><a:HttpStatusCode>OK</a:HttpStatusCode><a:MetadataId>859d8ccc-39f3-d0c1-5d75-e551ed1f7497</a:MetadataId><a:ReplyDelay>0</a:ReplyDelay><a:ResponseCondition i:nil="true" xmlns:b="http://www.hummingbird-alm.com/testframework/201610"/><a:ResponseName>Default</a:ResponseName><a:ServerName>SOAP Server</a:ServerName><a:ThrowsException>false</a:ThrowsException><a:Value>&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+&lt;/GenericHttpResponse&gt;</Value>
+      </SavedResponse>
+      <SavedResponse>
+        <ErrorType i:nil="true" />
+        <HttpStatusCode>OK</HttpStatusCode>
+        <MetadataId>859d8ccc-39f3-d0c1-5d75-e551ed1f7497</MetadataId>
+        <ReplyDelay>0</ReplyDelay>
+        <ResponseCondition i:nil="true" />
+        <ResponseName>Default</ResponseName>
+        <ServerName>SOAP Server</ServerName>
+        <ThrowsException>false</ThrowsException>
+        <Value>&lt;s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"&gt;
   &lt;s:Header /&gt;
   &lt;s:Body xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
     &lt;GetBookingInfoByIdResponse xmlns="http://www.hummingbird-alm.com/example/airlines/BE"&gt;
@@ -61,136 +259,797 @@
       &lt;/GetBookingInfoByIdResult&gt;
     &lt;/GetBookingInfoByIdResponse&gt;
   &lt;/s:Body&gt;
-&lt;/s:Envelope&gt;</a:Value></a:SavedResponse></SavedResponses><ServiceParameters><item><key><guid xmlns="">ad486632-f5f8-4eb8-af2d-336d6797ea6e</guid></key><value><ArrayOfParameter xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Parameter><Name>Queue Length</Name><DefaultValue>1000</DefaultValue><Value>1000</Value><Description>the max number of the requests can be stored in the queue. if the queue is full, HttpClient will drop the incoming requests.</Description><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>Threads</Name><DefaultValue>20</DefaultValue><Value>10</Value><Description>the maximum http connections can be made by HttpClient. if all thread is busy, the requests will be stored in the queue and wait until a connection is spare</Description><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>MMS DeliveryReport URL</Name><DefaultValue>http://localhost/mmsc/deliveryReport</DefaultValue><Value>http://localhost/mmsc/deliveryReport</Value><Description>MMSC will call this url when receving a MM7 Message and deliveryReport is demanded.</Description><ParameterType>String</ParameterType></Parameter><Parameter><Name>MMS ReadReport URL</Name><DefaultValue>http://localhost/mmsc/readReport</DefaultValue><Value>http://localhost/mmsc/readReport</Value><Description>MMSC will call this url when receving a MM7 Message and readReport is demanded.</Description><ParameterType>String</ParameterType></Parameter><Parameter><Name>Login Name for VASP</Name><DefaultValue>Username</DefaultValue><Value>Username</Value><Description>MMSC will use this login to do Basic Authentication.</Description><ParameterType>String</ParameterType></Parameter><Parameter><Name>Password for VASP</Name><DefaultValue>Password</DefaultValue><Value>Password</Value><Description>MMSC will use this password to do Basic Authentication.</Description><ParameterType>String</ParameterType></Parameter></ArrayOfParameter></value></item><item><key><guid xmlns="">c8da5826-8d38-47cd-80c6-ee7e6e8205f4</guid></key><value><ArrayOfParameter xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Parameter><Name>Queue Length</Name><DefaultValue>500</DefaultValue><Value>500</Value><Description>the max number of the requests can be stored in the queue. if the queue is full, HttpClient will drop the incoming requests.</Description><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>Threads</Name><DefaultValue>20</DefaultValue><Value>10</Value><Description>the maximum http connections can be made by HttpClient. if all thread is busy, the requests will be stored in the queue and wait until a connection is spare</Description><ParameterType>Integer</ParameterType></Parameter></ArrayOfParameter></value></item><item><key><guid xmlns="">c43d2893-6979-4322-9e29-73b1f6c732be</guid></key><value><ArrayOfParameter xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Parameter><Name>Binding Address</Name><DefaultValue>*</DefaultValue><Value>*</Value><ParameterType>IpAddress</ParameterType></Parameter><Parameter><Name>Http Port</Name><DefaultValue>80</DefaultValue><Value>80</Value><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>Https Port</Name><DefaultValue>443</DefaultValue><Value>443</Value><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>Https Enabled</Name><DefaultValue>False</DefaultValue><Value>False</Value><ParameterType>Boolean</ParameterType></Parameter><Parameter><Name>Use System Certificate</Name><DefaultValue>True</DefaultValue><Value>True</Value><ParameterType>Boolean</ParameterType></Parameter><Parameter><Name>Custom Certificate File</Name><DefaultValue/><Value/><ParameterType>File</ParameterType></Parameter><Parameter><Name>Custom Certificate Password</Name><DefaultValue/><Value/><ParameterType>Password</ParameterType></Parameter><Parameter><Name>Queue Length</Name><DefaultValue>100</DefaultValue><Value>100</Value><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>Max Thread</Name><DefaultValue>10</DefaultValue><Value>10</Value><ParameterType>Integer</ParameterType></Parameter></ArrayOfParameter></value></item><item><key><guid xmlns="">a7538e94-daf2-4019-9592-cb3aebac7845</guid></key><value><ArrayOfParameter xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Parameter><Name>Binding Address</Name><DefaultValue>*</DefaultValue><Value>*</Value><ParameterType>IpAddress</ParameterType></Parameter><Parameter><Name>Port</Name><DefaultValue>8080</DefaultValue><Value>8080</Value><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>SSL Port</Name><DefaultValue>8443</DefaultValue><Value>8443</Value><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>Use System Certificate</Name><DefaultValue>True</DefaultValue><Value>True</Value><ParameterType>Boolean</ParameterType></Parameter><Parameter><Name>Custom Certificate File</Name><DefaultValue/><Value/><ParameterType>File</ParameterType></Parameter><Parameter><Name>Custom Certificate Password</Name><DefaultValue/><Value/><ParameterType>Password</ParameterType></Parameter></ArrayOfParameter></value></item><item><key><guid xmlns="">9908954e-c54d-4085-b8ee-bc3e7e676f90</guid></key><value><ArrayOfParameter xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Parameter><Name>Binding Address</Name><DefaultValue>*</DefaultValue><Value>*</Value><ParameterType>IpAddress</ParameterType></Parameter><Parameter><Name>Port</Name><DefaultValue>5000</DefaultValue><Value>5000</Value><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>MT Behavior</Name><DefaultValue>ACK</DefaultValue><Value>ACK</Value><Description>Reply ACK, NACK or no reply when receiving MT (UCP 51) messages. 'Auto' for auto detection</Description><ParameterType>Enumeration</ParameterType></Parameter><Parameter><Name>NACK Code</Name><DefaultValue>99</DefaultValue><Value>99</Value><Description>The Nack code to be applied to MT (UCP 51) messages, when 'MT Behavior' is set to NACK</Description><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>Status Report</Name><DefaultValue>True</DefaultValue><Value>True</Value><Description>If requested, the SMSC will resend a Status Report message (UCP 53) to the client.</Description><ParameterType>Boolean</ParameterType></Parameter><Parameter><Name>Status Report delay</Name><DefaultValue>0</DefaultValue><Value>1</Value><Description>The time in seconds to wait until the Status Report (SR) is resent.</Description><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>Status Report DST</Name><DefaultValue>0</DefaultValue><Value>0</Value><Description>The Dst value of the Status Report (SR), please refer to EMI protocol specifications.</Description><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>Status Report RSN</Name><DefaultValue>000</DefaultValue><Value>000</Value><Description>The Rsn value of the Status Report (SR), please refer to EMI protocol specifications.</Description><ParameterType>String</ParameterType></Parameter><Parameter><Name>Hide ACK and Empty MTs</Name><DefaultValue>True</DefaultValue><Value>False</Value><Description>Hide the ACK and Empty MT SMS from message list, while NACK will still be shown.</Description><ParameterType>Boolean</ParameterType></Parameter><Parameter><Name>Large Account</Name><DefaultValue/><Value/><Description>Large Account used in Session Management (UCP 60). Empty = Accept all connections</Description><ParameterType>String</ParameterType></Parameter><Parameter><Name>Large Account Password</Name><DefaultValue/><Value/><Description>Large Account Password used in Session Management (UCP 60). Empty = Accept all passwords</Description><ParameterType>String</ParameterType></Parameter></ArrayOfParameter></value></item><item><key><guid xmlns="">c7ba414c-7ba7-4613-9563-6cca183f6f3a</guid></key><value><ArrayOfParameter xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Parameter><Name>Binding Address</Name><DefaultValue>*</DefaultValue><Value>*</Value><ParameterType>IpAddress</ParameterType></Parameter><Parameter><Name>Port</Name><DefaultValue>25</DefaultValue><Value>25</Value><ParameterType>Integer</ParameterType></Parameter><Parameter><Name>Custom Reply</Name><DefaultValue>250 OK</DefaultValue><Value>250 OK</Value><ParameterType>String</ParameterType></Parameter></ArrayOfParameter></value></item></ServiceParameters><SystemVariables xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>HB_AIRLINES</a:string></SystemVariables></Profile><RequiredExtensions><ExtensionDefinition><Id xmlns="http://www.hummingbird-alm.com/testframework/201610">3d6475da-a58e-4e48-aa03-93874c547b3a</Id><AddtionalFiles xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Hummingbird.Extensions.Airlines.pdb</a:string></AddtionalFiles><Company>Huaxing YUAN</Company><Copyright>Copyright 2018 Huaxing YUAN, All rights reserved.</Copyright><Description>This is a demo extension of Hummingbird Airlines</Description><LicenceFile i:nil="true"/><MainDllFile>Hummingbird.Extensions.Airlines.dll</MainDllFile><MaxFrameworkVersion><Build>99999</Build><Major>1</Major><Minor>99</Minor></MaxFrameworkVersion><MinFrameworkVersion><Build>0</Build><Major>1</Major><Minor>0</Minor></MinFrameworkVersion><Name>Hummingbird Airlines</Name><Version><Build>6848</Build><Major>1</Major><Minor>0</Minor></Version></ExtensionDefinition><ExtensionDefinition><Id xmlns="http://www.hummingbird-alm.com/testframework/201610">2fbd3e63-45d3-4688-8f33-88ae0b5df9be</Id><AddtionalFiles xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Hummingbird.PetStore.pdb</a:string></AddtionalFiles><Company>Huaxing YUAN</Company><Copyright>Copyright 2018 Huaxing YUAN, All rights reserved.</Copyright><Description>Extension to test REST API using Swagger</Description><LicenceFile i:nil="true"/><MainDllFile>Hummingbird.PetStore.dll</MainDllFile><MaxFrameworkVersion><Build>99999</Build><Major>1</Major><Minor>99</Minor></MaxFrameworkVersion><MinFrameworkVersion><Build>0</Build><Major>1</Major><Minor>0</Minor></MinFrameworkVersion><Name>Swagger Pet store</Name><Version><Build>6858</Build><Major>1</Major><Minor>0</Minor></Version></ExtensionDefinition></RequiredExtensions><TestSuites><TestSuite><Context/><CustomVariables/><Description i:nil="true"/><Id>5b0bb371-22ad-4947-a730-af32621dd071</Id><IsDisabled>false</IsDisabled><Name>pet</Name><TestCases><TestCase><Context/><CustomVariables/><Description i:nil="true"/><Id>107901f3-33ce-477e-bcec-c717a6d91250</Id><IsDisabled>false</IsDisabled><Name>findPets</Name><OnErrorBehavior>ResumeNext</OnErrorBehavior><Steps><TestStepBase i:type="SendRequestTestStep"><Context/><CustomVariables/><Description i:nil="true"/><Id>f833a082-3967-40c6-951f-978199d72fbe</Id><IsDisabled>false</IsDisabled><Name>findPetsByStatus</Name><Assertions><AbstractAssertion i:type="ContainsAssertion"><Id>52d6e0ef-6011-496c-95e6-89bd34b58d05</Id><IsDisabled>false</IsDisabled><Name>Check if  is found in RequestObject</Name><ExpectedResult i:nil="true" xmlns="http://www.hummingbird-alm.com/testframework/201610"/><IsCaseSensitive xmlns="http://www.hummingbird-alm.com/testframework/201610">false</IsCaseSensitive><MessagePart xmlns="http://www.hummingbird-alm.com/testframework/201610">ResponseObject</MessagePart><UseRegularExpression xmlns="http://www.hummingbird-alm.com/testframework/201610">false</UseRegularExpression><Pattern>Dogs</Pattern></AbstractAssertion></Assertions><OnErrorBehavior>ResumeNext</OnErrorBehavior><DisplayRequest>GET /pet/findByStatus?status=pending%2cavailable HTTP/1.1&#xD;
-Content-Type: application/json&#xD;
-&#xD;
-</DisplayRequest><Request>GET /pet/findByStatus?status=pending%2cavailable HTTP/1.1&#xD;
-Content-Type: application/json&#xD;
-&#xD;
-</Request><RequestMetadataId>04aaec70-57ea-7bfe-554a-a3e7fc49abe6</RequestMetadataId><RequestOptions xmlns:a="http://www.hummingbird-alm.com/testframework/201610"><a:AuthenticationMode>Anonymous</a:AuthenticationMode><a:Credential>Anonymous</a:Credential><a:HttpHeaders/><a:Password i:nil="true"/><a:ProxyMode>System</a:ProxyMode><a:Token i:nil="true"/><a:UseMToM>false</a:UseMToM><a:UsePreemptiveAuthentication>false</a:UsePreemptiveAuthentication><a:UseSoap12>false</a:UseSoap12><a:Username i:nil="true"/><a:X509Certificate i:nil="true"/></RequestOptions><UriTemplate>https://petstore.swagger.io/v2</UriTemplate></TestStepBase><TestStepBase i:type="SendRequestTestStep"><Context/><CustomVariables/><Description i:nil="true"/><Id>91345f14-7a12-4c25-9fd9-54e3a1d3fbf2</Id><IsDisabled>false</IsDisabled><Name>findPetsByTags</Name><Assertions><AbstractAssertion i:type="ContainsAssertion"><Id>6e1ddf50-5d00-421e-b463-508c62e85ad0</Id><IsDisabled>false</IsDisabled><Name>Check if  is found in RequestObject</Name><ExpectedResult i:nil="true" xmlns="http://www.hummingbird-alm.com/testframework/201610"/><IsCaseSensitive xmlns="http://www.hummingbird-alm.com/testframework/201610">false</IsCaseSensitive><MessagePart xmlns="http://www.hummingbird-alm.com/testframework/201610">ResponseObject</MessagePart><UseRegularExpression xmlns="http://www.hummingbird-alm.com/testframework/201610">false</UseRegularExpression><Pattern>Cat</Pattern></AbstractAssertion></Assertions><OnErrorBehavior>ResumeNext</OnErrorBehavior><DisplayRequest>GET /pet/findByTags?tags=Category+4%2cCategory+2 HTTP/1.1&#xD;
-Content-Type: application/json&#xD;
-&#xD;
-</DisplayRequest><Request>GET /pet/findByTags?tags=Category+4%2cCategory+2 HTTP/1.1&#xD;
-Content-Type: application/json&#xD;
-&#xD;
-</Request><RequestMetadataId>0330ee22-5109-4b69-fc88-735f8de2be9a</RequestMetadataId><RequestOptions xmlns:a="http://www.hummingbird-alm.com/testframework/201610"><a:AuthenticationMode>Anonymous</a:AuthenticationMode><a:Credential>Anonymous</a:Credential><a:HttpHeaders/><a:Password i:nil="true"/><a:ProxyMode>System</a:ProxyMode><a:Token i:nil="true"/><a:UseMToM>false</a:UseMToM><a:UsePreemptiveAuthentication>false</a:UsePreemptiveAuthentication><a:UseSoap12>false</a:UseSoap12><a:Username i:nil="true"/><a:X509Certificate i:nil="true"/></RequestOptions><UriTemplate>https://petstore.swagger.io/v2</UriTemplate></TestStepBase></Steps></TestCase><TestCase><Context/><CustomVariables/><Description i:nil="true"/><Id>d15790b8-9d37-4f7c-ac7d-1fa0c9e76ee0</Id><IsDisabled>false</IsDisabled><Name>updatePets name Cat 4</Name><OnErrorBehavior>ResumeNext</OnErrorBehavior><Steps><TestStepBase i:type="SendRequestTestStep"><Context/><CustomVariables/><Description i:nil="true"/><Id>1772bc84-b0e1-49aa-b825-5d84db451e1a</Id><IsDisabled>false</IsDisabled><Name>Send Request</Name><Assertions/><OnErrorBehavior>ResumeNext</OnErrorBehavior><DisplayRequest>PUT /pet HTTP/1.1&#xD;
-Content-Type: application/json&#xD;
-&#xD;
-{&#xD;
-  "id": 3,&#xD;
-  "category": {&#xD;
-    "id": 3,&#xD;
-    "name": "Cats"&#xD;
-  },&#xD;
-  "name": "Cat 4",&#xD;
-  "photoUrls": [&#xD;
-    "url1",&#xD;
-    "url2"&#xD;
-  ],&#xD;
-  "tags": [&#xD;
-    {&#xD;
-      "id": 1,&#xD;
-      "name": "tag3"&#xD;
-    },&#xD;
-    {&#xD;
-      "id": 2,&#xD;
-      "name": "tag4"&#xD;
-    }&#xD;
-  ],&#xD;
-  "status": "pending"&#xD;
-}&#xD;
-</DisplayRequest><Request>PUT /pet HTTP/1.1&#xD;
-Content-Type: application/json&#xD;
-&#xD;
-{&#xD;
-  "id": 3,&#xD;
-  "category": {&#xD;
-    "id": 3,&#xD;
-    "name": "Cats"&#xD;
-  },&#xD;
-  "name": "Cat 4",&#xD;
-  "photoUrls": [&#xD;
-    "url1",&#xD;
-    "url2"&#xD;
-  ],&#xD;
-  "tags": [&#xD;
-    {&#xD;
-      "id": 1,&#xD;
-      "name": "tag3"&#xD;
-    },&#xD;
-    {&#xD;
-      "id": 2,&#xD;
-      "name": "tag4"&#xD;
-    }&#xD;
-  ],&#xD;
-  "status": "pending"&#xD;
-}&#xD;
-</Request><RequestMetadataId>1a372ac9-62fa-5e9c-7e12-252781730ced</RequestMetadataId><RequestOptions xmlns:a="http://www.hummingbird-alm.com/testframework/201610"><a:AuthenticationMode>Anonymous</a:AuthenticationMode><a:Credential>Anonymous</a:Credential><a:HttpHeaders/><a:Password i:nil="true"/><a:ProxyMode>System</a:ProxyMode><a:Token i:nil="true"/><a:UseMToM>false</a:UseMToM><a:UsePreemptiveAuthentication>false</a:UsePreemptiveAuthentication><a:UseSoap12>false</a:UseSoap12><a:Username i:nil="true"/><a:X509Certificate i:nil="true"/></RequestOptions><UriTemplate>https://petstore.swagger.io/v2</UriTemplate></TestStepBase></Steps></TestCase><TestCase><Context/><CustomVariables/><Description i:nil="true"/><Id>2da330c6-885d-40e6-b507-231adc7b7cd6</Id><IsDisabled>false</IsDisabled><Name>getPets</Name><OnErrorBehavior>ResumeNext</OnErrorBehavior><Steps><TestStepBase i:type="SendRequestTestStep"><Context/><CustomVariables/><Description i:nil="true"/><Id>233ea301-3ae7-4e3c-828c-cdbea5297f21</Id><IsDisabled>false</IsDisabled><Name>getPets</Name><Assertions><AbstractAssertion i:type="ContainsAssertion"><Id>36d29b12-610f-47d9-8363-1f40ef23d548</Id><IsDisabled>false</IsDisabled><Name>Check if  is found in RequestObject</Name><ExpectedResult i:nil="true" xmlns="http://www.hummingbird-alm.com/testframework/201610"/><IsCaseSensitive xmlns="http://www.hummingbird-alm.com/testframework/201610">false</IsCaseSensitive><MessagePart xmlns="http://www.hummingbird-alm.com/testframework/201610">ResponseObject</MessagePart><UseRegularExpression xmlns="http://www.hummingbird-alm.com/testframework/201610">false</UseRegularExpression><Pattern>"name": "tag3"</Pattern></AbstractAssertion><AbstractAssertion i:type="ContainsAssertion"><Id>1ea2b8b5-6712-4c63-942e-a28b154f531b</Id><IsDisabled>false</IsDisabled><Name>Check if  is found in RequestObject</Name><ExpectedResult i:nil="true" xmlns="http://www.hummingbird-alm.com/testframework/201610"/><IsCaseSensitive xmlns="http://www.hummingbird-alm.com/testframework/201610">false</IsCaseSensitive><MessagePart xmlns="http://www.hummingbird-alm.com/testframework/201610">ResponseObject</MessagePart><UseRegularExpression xmlns="http://www.hummingbird-alm.com/testframework/201610">false</UseRegularExpression><Pattern>"name": "tag4"</Pattern></AbstractAssertion><AbstractAssertion i:type="NotContainsAssertion"><Id>b72bc3df-b32c-4d9c-a320-db8ead190922</Id><IsDisabled>false</IsDisabled><Name>Check if  is not found in RequestObject</Name><ExpectedResult i:nil="true" xmlns="http://www.hummingbird-alm.com/testframework/201610"/><IsCaseSensitive xmlns="http://www.hummingbird-alm.com/testframework/201610">false</IsCaseSensitive><MessagePart xmlns="http://www.hummingbird-alm.com/testframework/201610">ResponseObject</MessagePart><UseRegularExpression xmlns="http://www.hummingbird-alm.com/testframework/201610">false</UseRegularExpression><Pattern>"name": "tag2"</Pattern></AbstractAssertion></Assertions><OnErrorBehavior>ResumeNext</OnErrorBehavior><DisplayRequest>GET /pet/3 HTTP/1.1&#xD;
-api_key: &#xD;
-Content-Type: application/json&#xD;
-&#xD;
-</DisplayRequest><Request>GET /pet/3 HTTP/1.1&#xD;
-api_key: &#xD;
-Content-Type: application/json&#xD;
-&#xD;
-</Request><RequestMetadataId>8c3f4176-04d0-5dc9-a570-99b8812a7176</RequestMetadataId><RequestOptions xmlns:a="http://www.hummingbird-alm.com/testframework/201610"><a:AuthenticationMode>Anonymous</a:AuthenticationMode><a:Credential>Anonymous</a:Credential><a:HttpHeaders/><a:Password i:nil="true"/><a:ProxyMode>System</a:ProxyMode><a:Token i:nil="true"/><a:UseMToM>false</a:UseMToM><a:UsePreemptiveAuthentication>false</a:UsePreemptiveAuthentication><a:UseSoap12>false</a:UseSoap12><a:Username i:nil="true"/><a:X509Certificate i:nil="true"/></RequestOptions><UriTemplate>https://petstore.swagger.io/v2</UriTemplate></TestStepBase></Steps></TestCase><TestCase><Context/><CustomVariables/><Description i:nil="true"/><Id>07b691cc-60dd-40d7-9a6c-5f1875004826</Id><IsDisabled>false</IsDisabled><Name>updatePets name Cat 3</Name><OnErrorBehavior>ResumeNext</OnErrorBehavior><Steps><TestStepBase i:type="SendRequestTestStep"><Context/><CustomVariables/><Description i:nil="true"/><Id>7f2b69fd-11cd-4ac8-9085-412982fe99e2</Id><IsDisabled>false</IsDisabled><Name>Send Request</Name><Assertions/><OnErrorBehavior>ResumeNext</OnErrorBehavior><DisplayRequest>PUT /pet HTTP/1.1&#xD;
-Content-Type: application/json&#xD;
-&#xD;
-{&#xD;
-  "id": 3,&#xD;
-  "category": {&#xD;
-    "id": 3,&#xD;
-    "name": "Cats"&#xD;
-  },&#xD;
-  "name": "Cat 3",&#xD;
-  "photoUrls": [&#xD;
-    "url1",&#xD;
-    "url2"&#xD;
-  ],&#xD;
-  "tags": [&#xD;
-    {&#xD;
-      "id": 1,&#xD;
-      "name": "tag3"&#xD;
-    },&#xD;
-    {&#xD;
-      "id": 2,&#xD;
-      "name": "tag4"&#xD;
-    }&#xD;
-  ],&#xD;
-  "status": "pending"&#xD;
-}&#xD;
-</DisplayRequest><Request>PUT /pet HTTP/1.1&#xD;
-Content-Type: application/json&#xD;
-&#xD;
-{&#xD;
-  "id": 3,&#xD;
-  "category": {&#xD;
-    "id": 3,&#xD;
-    "name": "Cats"&#xD;
-  },&#xD;
-  "name": "Cat 3",&#xD;
-  "photoUrls": [&#xD;
-    "url1",&#xD;
-    "url2"&#xD;
-  ],&#xD;
-  "tags": [&#xD;
-    {&#xD;
-      "id": 1,&#xD;
-      "name": "tag3"&#xD;
-    },&#xD;
-    {&#xD;
-      "id": 2,&#xD;
-      "name": "tag4"&#xD;
-    }&#xD;
-  ],&#xD;
-  "status": "pending"&#xD;
-}&#xD;
-</Request><RequestMetadataId>1a372ac9-62fa-5e9c-7e12-252781730ced</RequestMetadataId><RequestOptions xmlns:a="http://www.hummingbird-alm.com/testframework/201610"><a:AuthenticationMode>Anonymous</a:AuthenticationMode><a:Credential>Anonymous</a:Credential><a:HttpHeaders/><a:Password i:nil="true"/><a:ProxyMode>System</a:ProxyMode><a:Token i:nil="true"/><a:UseMToM>false</a:UseMToM><a:UsePreemptiveAuthentication>false</a:UsePreemptiveAuthentication><a:UseSoap12>false</a:UseSoap12><a:Username i:nil="true"/><a:X509Certificate i:nil="true"/></RequestOptions><UriTemplate>https://petstore.swagger.io/v2</UriTemplate></TestStepBase></Steps></TestCase><TestCase><Context/><CustomVariables/><Description i:nil="true"/><Id>64b04fb8-925e-4c45-b1e8-1c452b4bd955</Id><IsDisabled>false</IsDisabled><Name>getPets and check name updated</Name><OnErrorBehavior>ResumeNext</OnErrorBehavior><Steps><TestStepBase i:type="SendRequestTestStep"><Context/><CustomVariables/><Description i:nil="true"/><Id>14cf9b1b-1246-49f8-b6c0-852f942aea6e</Id><IsDisabled>false</IsDisabled><Name>Send Request</Name><Assertions><AbstractAssertion i:type="ContainsAssertion"><Id>890e18a0-2dc0-4cb1-852c-c790cd2d7a2c</Id><IsDisabled>false</IsDisabled><Name>Check if  is found in RequestObject</Name><ExpectedResult i:nil="true" xmlns="http://www.hummingbird-alm.com/testframework/201610"/><IsCaseSensitive xmlns="http://www.hummingbird-alm.com/testframework/201610">false</IsCaseSensitive><MessagePart xmlns="http://www.hummingbird-alm.com/testframework/201610">ResponseObject</MessagePart><UseRegularExpression xmlns="http://www.hummingbird-alm.com/testframework/201610">false</UseRegularExpression><Pattern>"name": "Cat 3"</Pattern></AbstractAssertion><AbstractAssertion i:type="NotContainsAssertion"><Id>3b283355-baf2-4805-bbbe-9a1b607732b1</Id><IsDisabled>false</IsDisabled><Name>Check if  is not found in RequestObject</Name><ExpectedResult i:nil="true" xmlns="http://www.hummingbird-alm.com/testframework/201610"/><IsCaseSensitive xmlns="http://www.hummingbird-alm.com/testframework/201610">false</IsCaseSensitive><MessagePart xmlns="http://www.hummingbird-alm.com/testframework/201610">ResponseObject</MessagePart><UseRegularExpression xmlns="http://www.hummingbird-alm.com/testframework/201610">false</UseRegularExpression><Pattern>"name": "Cat 4"</Pattern></AbstractAssertion></Assertions><OnErrorBehavior>ResumeNext</OnErrorBehavior><DisplayRequest>GET /pet/3 HTTP/1.1&#xD;
-api_key: &#xD;
-Content-Type: application/json&#xD;
-&#xD;
-</DisplayRequest><Request>GET /pet/3 HTTP/1.1&#xD;
-api_key: &#xD;
-Content-Type: application/json&#xD;
-&#xD;
-</Request><RequestMetadataId>8c3f4176-04d0-5dc9-a570-99b8812a7176</RequestMetadataId><RequestOptions xmlns:a="http://www.hummingbird-alm.com/testframework/201610"><a:AuthenticationMode>Anonymous</a:AuthenticationMode><a:Credential>Anonymous</a:Credential><a:HttpHeaders/><a:Password i:nil="true"/><a:ProxyMode>System</a:ProxyMode><a:Token i:nil="true"/><a:UseMToM>false</a:UseMToM><a:UsePreemptiveAuthentication>false</a:UsePreemptiveAuthentication><a:UseSoap12>false</a:UseSoap12><a:Username i:nil="true"/><a:X509Certificate i:nil="true"/></RequestOptions><UriTemplate>https://petstore.swagger.io/v2</UriTemplate></TestStepBase></Steps></TestCase></TestCases></TestSuite></TestSuites></AutomationProject>
+&lt;/s:Envelope&gt;</Value>
+      </SavedResponse>
+    </SavedResponses>
+    <ServiceParameters>
+      <item>
+        <key>
+          <guid xmlns="">ad486632-f5f8-4eb8-af2d-336d6797ea6e</guid>
+        </key>
+        <value>
+          <ArrayOfParameter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="">
+            <Parameter>
+              <Name>Queue Length</Name>
+              <DefaultValue>1000</DefaultValue>
+              <Value>1000</Value>
+              <Description>the max number of the requests can be stored in the queue. if the queue is full, HttpClient will drop the incoming requests.</Description>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Threads</Name>
+              <DefaultValue>20</DefaultValue>
+              <Value>10</Value>
+              <Description>the maximum http connections can be made by HttpClient. if all thread is busy, the requests will be stored in the queue and wait until a connection is spare</Description>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>MMS DeliveryReport URL</Name>
+              <DefaultValue>http://localhost/mmsc/deliveryReport</DefaultValue>
+              <Value>http://localhost/mmsc/deliveryReport</Value>
+              <Description>MMSC will call this url when receving a MM7 Message and deliveryReport is demanded.</Description>
+              <ParameterType>String</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>MMS ReadReport URL</Name>
+              <DefaultValue>http://localhost/mmsc/readReport</DefaultValue>
+              <Value>http://localhost/mmsc/readReport</Value>
+              <Description>MMSC will call this url when receving a MM7 Message and readReport is demanded.</Description>
+              <ParameterType>String</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Login Name for VASP</Name>
+              <DefaultValue>Username</DefaultValue>
+              <Value>Username</Value>
+              <Description>MMSC will use this login to do Basic Authentication.</Description>
+              <ParameterType>String</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Password for VASP</Name>
+              <DefaultValue>Password</DefaultValue>
+              <Value>Password</Value>
+              <Description>MMSC will use this password to do Basic Authentication.</Description>
+              <ParameterType>String</ParameterType>
+            </Parameter>
+          </ArrayOfParameter>
+        </value>
+      </item>
+      <item>
+        <key>
+          <guid xmlns="">c8da5826-8d38-47cd-80c6-ee7e6e8205f4</guid>
+        </key>
+        <value>
+          <ArrayOfParameter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="">
+            <Parameter>
+              <Name>Queue Length</Name>
+              <DefaultValue>500</DefaultValue>
+              <Value>500</Value>
+              <Description>the max number of the requests can be stored in the queue. if the queue is full, HttpClient will drop the incoming requests.</Description>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Threads</Name>
+              <DefaultValue>20</DefaultValue>
+              <Value>10</Value>
+              <Description>the maximum http connections can be made by HttpClient. if all thread is busy, the requests will be stored in the queue and wait until a connection is spare</Description>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+          </ArrayOfParameter>
+        </value>
+      </item>
+      <item>
+        <key>
+          <guid xmlns="">c43d2893-6979-4322-9e29-73b1f6c732be</guid>
+        </key>
+        <value>
+          <ArrayOfParameter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="">
+            <Parameter>
+              <Name>Binding Address</Name>
+              <DefaultValue>*</DefaultValue>
+              <Value>*</Value>
+              <ParameterType>IpAddress</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Http Port</Name>
+              <DefaultValue>80</DefaultValue>
+              <Value>80</Value>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Https Port</Name>
+              <DefaultValue>443</DefaultValue>
+              <Value>443</Value>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Https Enabled</Name>
+              <DefaultValue>False</DefaultValue>
+              <Value>False</Value>
+              <ParameterType>Boolean</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Use System Certificate</Name>
+              <DefaultValue>True</DefaultValue>
+              <Value>True</Value>
+              <ParameterType>Boolean</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Custom Certificate File</Name>
+              <DefaultValue />
+              <Value />
+              <ParameterType>File</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Custom Certificate Password</Name>
+              <DefaultValue />
+              <Value />
+              <ParameterType>Password</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Queue Length</Name>
+              <DefaultValue>100</DefaultValue>
+              <Value>100</Value>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Max Thread</Name>
+              <DefaultValue>10</DefaultValue>
+              <Value>10</Value>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+          </ArrayOfParameter>
+        </value>
+      </item>
+      <item>
+        <key>
+          <guid xmlns="">a7538e94-daf2-4019-9592-cb3aebac7845</guid>
+        </key>
+        <value>
+          <ArrayOfParameter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="">
+            <Parameter>
+              <Name>Binding Address</Name>
+              <DefaultValue>*</DefaultValue>
+              <Value>*</Value>
+              <ParameterType>IpAddress</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Port</Name>
+              <DefaultValue>8080</DefaultValue>
+              <Value>8080</Value>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>SSL Port</Name>
+              <DefaultValue>8443</DefaultValue>
+              <Value>8443</Value>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Use System Certificate</Name>
+              <DefaultValue>True</DefaultValue>
+              <Value>True</Value>
+              <ParameterType>Boolean</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Custom Certificate File</Name>
+              <DefaultValue />
+              <Value />
+              <ParameterType>File</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Custom Certificate Password</Name>
+              <DefaultValue />
+              <Value />
+              <ParameterType>Password</ParameterType>
+            </Parameter>
+          </ArrayOfParameter>
+        </value>
+      </item>
+      <item>
+        <key>
+          <guid xmlns="">9908954e-c54d-4085-b8ee-bc3e7e676f90</guid>
+        </key>
+        <value>
+          <ArrayOfParameter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="">
+            <Parameter>
+              <Name>Binding Address</Name>
+              <DefaultValue>*</DefaultValue>
+              <Value>*</Value>
+              <ParameterType>IpAddress</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Port</Name>
+              <DefaultValue>5000</DefaultValue>
+              <Value>5000</Value>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>MT Behavior</Name>
+              <DefaultValue>ACK</DefaultValue>
+              <Value>ACK</Value>
+              <Description>Reply ACK, NACK or no reply when receiving MT (UCP 51) messages. 'Auto' for auto detection</Description>
+              <ParameterType>Enumeration</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>NACK Code</Name>
+              <DefaultValue>99</DefaultValue>
+              <Value>99</Value>
+              <Description>The Nack code to be applied to MT (UCP 51) messages, when 'MT Behavior' is set to NACK</Description>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Status Report</Name>
+              <DefaultValue>True</DefaultValue>
+              <Value>True</Value>
+              <Description>If requested, the SMSC will resend a Status Report message (UCP 53) to the client.</Description>
+              <ParameterType>Boolean</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Status Report delay</Name>
+              <DefaultValue>0</DefaultValue>
+              <Value>1</Value>
+              <Description>The time in seconds to wait until the Status Report (SR) is resent.</Description>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Status Report DST</Name>
+              <DefaultValue>0</DefaultValue>
+              <Value>0</Value>
+              <Description>The Dst value of the Status Report (SR), please refer to EMI protocol specifications.</Description>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Status Report RSN</Name>
+              <DefaultValue>000</DefaultValue>
+              <Value>000</Value>
+              <Description>The Rsn value of the Status Report (SR), please refer to EMI protocol specifications.</Description>
+              <ParameterType>String</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Hide ACK and Empty MTs</Name>
+              <DefaultValue>True</DefaultValue>
+              <Value>False</Value>
+              <Description>Hide the ACK and Empty MT SMS from message list, while NACK will still be shown.</Description>
+              <ParameterType>Boolean</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Large Account</Name>
+              <DefaultValue />
+              <Value />
+              <Description>Large Account used in Session Management (UCP 60). Empty = Accept all connections</Description>
+              <ParameterType>String</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Large Account Password</Name>
+              <DefaultValue />
+              <Value />
+              <Description>Large Account Password used in Session Management (UCP 60). Empty = Accept all passwords</Description>
+              <ParameterType>String</ParameterType>
+            </Parameter>
+          </ArrayOfParameter>
+        </value>
+      </item>
+      <item>
+        <key>
+          <guid xmlns="">c7ba414c-7ba7-4613-9563-6cca183f6f3a</guid>
+        </key>
+        <value>
+          <ArrayOfParameter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="">
+            <Parameter>
+              <Name>Binding Address</Name>
+              <DefaultValue>*</DefaultValue>
+              <Value>*</Value>
+              <ParameterType>IpAddress</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Port</Name>
+              <DefaultValue>25</DefaultValue>
+              <Value>25</Value>
+              <ParameterType>Integer</ParameterType>
+            </Parameter>
+            <Parameter>
+              <Name>Custom Reply</Name>
+              <DefaultValue>250 OK</DefaultValue>
+              <Value>250 OK</Value>
+              <ParameterType>String</ParameterType>
+            </Parameter>
+          </ArrayOfParameter>
+        </value>
+      </item>
+    </ServiceParameters>
+    <SystemVariables xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+      <d3p1:string>HB_AIRLINES</d3p1:string>
+    </SystemVariables>
+  </Profile>
+  <RequiredExtensions>
+    <ExtensionDefinition>
+      <Id>3d6475da-a58e-4e48-aa03-93874c547b3a</Id>
+      <AddtionalFiles xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>Hummingbird.Extensions.Airlines.pdb</d4p1:string>
+      </AddtionalFiles>
+      <Company>Huaxing YUAN</Company>
+      <Copyright>Copyright 2018 Huaxing YUAN, All rights reserved.</Copyright>
+      <Description>This is a demo extension of Hummingbird Airlines</Description>
+      <LicenceFile i:nil="true" />
+      <MainDllFile>Hummingbird.Extensions.Airlines.dll</MainDllFile>
+      <MaxFrameworkVersion>
+        <Build>99999</Build>
+        <Major>1</Major>
+        <Minor>99</Minor>
+      </MaxFrameworkVersion>
+      <MinFrameworkVersion>
+        <Build>0</Build>
+        <Major>1</Major>
+        <Minor>0</Minor>
+      </MinFrameworkVersion>
+      <Name>Hummingbird Airlines</Name>
+      <Version>
+        <Build>6848</Build>
+        <Major>1</Major>
+        <Minor>0</Minor>
+      </Version>
+    </ExtensionDefinition>
+    <ExtensionDefinition>
+      <Id>2fbd3e63-45d3-4688-8f33-88ae0b5df9be</Id>
+      <AddtionalFiles xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+        <d4p1:string>Hummingbird.PetStore.pdb</d4p1:string>
+      </AddtionalFiles>
+      <Company>Huaxing YUAN</Company>
+      <Copyright>Copyright 2018 Huaxing YUAN, All rights reserved.</Copyright>
+      <Description>Extension to test REST API using Swagger</Description>
+      <LicenceFile i:nil="true" />
+      <MainDllFile>Hummingbird.PetStore.dll</MainDllFile>
+      <MaxFrameworkVersion>
+        <Build>99999</Build>
+        <Major>1</Major>
+        <Minor>99</Minor>
+      </MaxFrameworkVersion>
+      <MinFrameworkVersion>
+        <Build>0</Build>
+        <Major>1</Major>
+        <Minor>0</Minor>
+      </MinFrameworkVersion>
+      <Name>Swagger Pet store</Name>
+      <Version>
+        <Build>6858</Build>
+        <Major>1</Major>
+        <Minor>0</Minor>
+      </Version>
+    </ExtensionDefinition>
+  </RequiredExtensions>
+  <TestSuites>
+    <TestSuite>
+      <Context />
+      <CustomVariables />
+      <Description i:nil="true" />
+      <Id>5b0bb371-22ad-4947-a730-af32621dd071</Id>
+      <IsDisabled>false</IsDisabled>
+      <Name>pet</Name>
+      <TestCases>
+        <TestCase>
+          <Context />
+          <CustomVariables />
+          <Description i:nil="true" />
+          <Id>107901f3-33ce-477e-bcec-c717a6d91250</Id>
+          <IsDisabled>false</IsDisabled>
+          <Name>findPets</Name>
+          <OnErrorBehavior>ResumeNext</OnErrorBehavior>
+          <Steps>
+            <TestStepBase i:type="SendRequestTestStep">
+              <Context />
+              <CustomVariables />
+              <Description i:nil="true" />
+              <Id>f833a082-3967-40c6-951f-978199d72fbe</Id>
+              <IsDisabled>false</IsDisabled>
+              <Name>findPetsByStatus</Name>
+              <Assertions>
+                <AbstractAssertion i:type="ContainsAssertion">
+                  <Id>52d6e0ef-6011-496c-95e6-89bd34b58d05</Id>
+                  <IsDisabled>false</IsDisabled>
+                  <Name>Check if  is found in RequestObject</Name>
+                  <ExpectedResult i:nil="true" />
+                  <IsCaseSensitive>false</IsCaseSensitive>
+                  <MessagePart>ResponseObject</MessagePart>
+                  <UseRegularExpression>false</UseRegularExpression>
+                  <Pattern>Dogs</Pattern>
+                </AbstractAssertion>
+              </Assertions>
+              <OnErrorBehavior>ResumeNext</OnErrorBehavior>
+              <DisplayRequest>GET /pet/findByStatus?status=available%2cpending HTTP/1.1
+Content-Type: application/json
+
+</DisplayRequest>
+              <Request>GET /pet/findByStatus?status=available%2cpending HTTP/1.1
+Content-Type: application/json
+
+</Request>
+              <RequestMetadataId>04aaec70-57ea-7bfe-554a-a3e7fc49abe6</RequestMetadataId>
+              <RequestOptions>
+                <AuthenticationMode>Anonymous</AuthenticationMode>
+                <Credential>Anonymous</Credential>
+                <HttpHeaders />
+                <Password i:nil="true" />
+                <ProxyMode>System</ProxyMode>
+                <Token i:nil="true" />
+                <UseMToM>false</UseMToM>
+                <UsePreemptiveAuthentication>false</UsePreemptiveAuthentication>
+                <UseSoap12>false</UseSoap12>
+                <Username i:nil="true" />
+                <X509Certificate i:nil="true" />
+              </RequestOptions>
+              <UriTemplate>https://petstore.swagger.io/v2</UriTemplate>
+            </TestStepBase>
+            <TestStepBase i:type="SendRequestTestStep">
+              <Context />
+              <CustomVariables />
+              <Description i:nil="true" />
+              <Id>91345f14-7a12-4c25-9fd9-54e3a1d3fbf2</Id>
+              <IsDisabled>false</IsDisabled>
+              <Name>findPetsByTags</Name>
+              <Assertions>
+                <AbstractAssertion i:type="ContainsAssertion">
+                  <Id>6e1ddf50-5d00-421e-b463-508c62e85ad0</Id>
+                  <IsDisabled>false</IsDisabled>
+                  <Name>Check if  is found in RequestObject</Name>
+                  <ExpectedResult i:nil="true" />
+                  <IsCaseSensitive>false</IsCaseSensitive>
+                  <MessagePart>ResponseObject</MessagePart>
+                  <UseRegularExpression>false</UseRegularExpression>
+                  <Pattern>Cat</Pattern>
+                </AbstractAssertion>
+              </Assertions>
+              <OnErrorBehavior>ResumeNext</OnErrorBehavior>
+              <DisplayRequest>GET /pet/findByTags?tags=Category+4%2cCategory+2 HTTP/1.1
+Content-Type: application/json
+
+</DisplayRequest>
+              <Request>GET /pet/findByTags?tags=Category+4%2cCategory+2 HTTP/1.1
+Content-Type: application/json
+
+</Request>
+              <RequestMetadataId>0330ee22-5109-4b69-fc88-735f8de2be9a</RequestMetadataId>
+              <RequestOptions>
+                <AuthenticationMode>Anonymous</AuthenticationMode>
+                <Credential>Anonymous</Credential>
+                <HttpHeaders />
+                <Password i:nil="true" />
+                <ProxyMode>System</ProxyMode>
+                <Token i:nil="true" />
+                <UseMToM>false</UseMToM>
+                <UsePreemptiveAuthentication>false</UsePreemptiveAuthentication>
+                <UseSoap12>false</UseSoap12>
+                <Username i:nil="true" />
+                <X509Certificate i:nil="true" />
+              </RequestOptions>
+              <UriTemplate>https://petstore.swagger.io/v2</UriTemplate>
+            </TestStepBase>
+          </Steps>
+        </TestCase>
+        <TestCase>
+          <Context />
+          <CustomVariables />
+          <Description i:nil="true" />
+          <Id>d15790b8-9d37-4f7c-ac7d-1fa0c9e76ee0</Id>
+          <IsDisabled>false</IsDisabled>
+          <Name>updatePets name Cat 4</Name>
+          <OnErrorBehavior>ResumeNext</OnErrorBehavior>
+          <Steps>
+            <TestStepBase i:type="SendRequestTestStep">
+              <Context />
+              <CustomVariables />
+              <Description i:nil="true" />
+              <Id>1772bc84-b0e1-49aa-b825-5d84db451e1a</Id>
+              <IsDisabled>false</IsDisabled>
+              <Name>Send Request</Name>
+              <Assertions />
+              <OnErrorBehavior>ResumeNext</OnErrorBehavior>
+              <DisplayRequest>PUT /pet HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": 3,
+  "category": {
+    "id": 3,
+    "name": "Cats"
+  },
+  "name": "Cat 4",
+  "photoUrls": [
+    "url1",
+    "url2"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "tag3"
+    },
+    {
+      "id": 2,
+      "name": "tag4"
+    }
+  ],
+  "status": "pending"
+}
+</DisplayRequest>
+              <Request>PUT /pet HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": 3,
+  "category": {
+    "id": 3,
+    "name": "Cats"
+  },
+  "name": "Cat 4",
+  "photoUrls": [
+    "url1",
+    "url2"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "tag3"
+    },
+    {
+      "id": 2,
+      "name": "tag4"
+    }
+  ],
+  "status": "pending"
+}
+</Request>
+              <RequestMetadataId>1a372ac9-62fa-5e9c-7e12-252781730ced</RequestMetadataId>
+              <RequestOptions>
+                <AuthenticationMode>Anonymous</AuthenticationMode>
+                <Credential>Anonymous</Credential>
+                <HttpHeaders />
+                <Password i:nil="true" />
+                <ProxyMode>System</ProxyMode>
+                <Token i:nil="true" />
+                <UseMToM>false</UseMToM>
+                <UsePreemptiveAuthentication>false</UsePreemptiveAuthentication>
+                <UseSoap12>false</UseSoap12>
+                <Username i:nil="true" />
+                <X509Certificate i:nil="true" />
+              </RequestOptions>
+              <UriTemplate>https://petstore.swagger.io/v2</UriTemplate>
+            </TestStepBase>
+          </Steps>
+        </TestCase>
+        <TestCase>
+          <Context />
+          <CustomVariables />
+          <Description i:nil="true" />
+          <Id>2da330c6-885d-40e6-b507-231adc7b7cd6</Id>
+          <IsDisabled>false</IsDisabled>
+          <Name>getPets</Name>
+          <OnErrorBehavior>ResumeNext</OnErrorBehavior>
+          <Steps>
+            <TestStepBase i:type="SendRequestTestStep">
+              <Context />
+              <CustomVariables />
+              <Description i:nil="true" />
+              <Id>233ea301-3ae7-4e3c-828c-cdbea5297f21</Id>
+              <IsDisabled>false</IsDisabled>
+              <Name>getPets</Name>
+              <Assertions>
+                <AbstractAssertion i:type="ContainsAssertion">
+                  <Id>36d29b12-610f-47d9-8363-1f40ef23d548</Id>
+                  <IsDisabled>false</IsDisabled>
+                  <Name>Check if  is found in RequestObject</Name>
+                  <ExpectedResult i:nil="true" />
+                  <IsCaseSensitive>false</IsCaseSensitive>
+                  <MessagePart>ResponseObject</MessagePart>
+                  <UseRegularExpression>false</UseRegularExpression>
+                  <Pattern>"name": "tag3"</Pattern>
+                </AbstractAssertion>
+                <AbstractAssertion i:type="ContainsAssertion">
+                  <Id>1ea2b8b5-6712-4c63-942e-a28b154f531b</Id>
+                  <IsDisabled>false</IsDisabled>
+                  <Name>Check if  is found in RequestObject</Name>
+                  <ExpectedResult i:nil="true" />
+                  <IsCaseSensitive>false</IsCaseSensitive>
+                  <MessagePart>ResponseObject</MessagePart>
+                  <UseRegularExpression>false</UseRegularExpression>
+                  <Pattern>"name": "tag4"</Pattern>
+                </AbstractAssertion>
+                <AbstractAssertion i:type="NotContainsAssertion">
+                  <Id>b72bc3df-b32c-4d9c-a320-db8ead190922</Id>
+                  <IsDisabled>false</IsDisabled>
+                  <Name>Check if  is not found in RequestObject</Name>
+                  <ExpectedResult i:nil="true" />
+                  <IsCaseSensitive>false</IsCaseSensitive>
+                  <MessagePart>ResponseObject</MessagePart>
+                  <UseRegularExpression>false</UseRegularExpression>
+                  <Pattern>"name": "tag2"</Pattern>
+                </AbstractAssertion>
+              </Assertions>
+              <OnErrorBehavior>ResumeNext</OnErrorBehavior>
+              <DisplayRequest>GET /pet/3 HTTP/1.1
+api_key: 
+Content-Type: application/json
+
+</DisplayRequest>
+              <Request>GET /pet/3 HTTP/1.1
+api_key: 
+Content-Type: application/json
+
+</Request>
+              <RequestMetadataId>8c3f4176-04d0-5dc9-a570-99b8812a7176</RequestMetadataId>
+              <RequestOptions>
+                <AuthenticationMode>Anonymous</AuthenticationMode>
+                <Credential>Anonymous</Credential>
+                <HttpHeaders />
+                <Password i:nil="true" />
+                <ProxyMode>System</ProxyMode>
+                <Token i:nil="true" />
+                <UseMToM>false</UseMToM>
+                <UsePreemptiveAuthentication>false</UsePreemptiveAuthentication>
+                <UseSoap12>false</UseSoap12>
+                <Username i:nil="true" />
+                <X509Certificate i:nil="true" />
+              </RequestOptions>
+              <UriTemplate>https://petstore.swagger.io/v2</UriTemplate>
+            </TestStepBase>
+          </Steps>
+        </TestCase>
+        <TestCase>
+          <Context />
+          <CustomVariables />
+          <Description i:nil="true" />
+          <Id>07b691cc-60dd-40d7-9a6c-5f1875004826</Id>
+          <IsDisabled>false</IsDisabled>
+          <Name>updatePets name Cat 3</Name>
+          <OnErrorBehavior>ResumeNext</OnErrorBehavior>
+          <Steps>
+            <TestStepBase i:type="SendRequestTestStep">
+              <Context />
+              <CustomVariables />
+              <Description i:nil="true" />
+              <Id>7f2b69fd-11cd-4ac8-9085-412982fe99e2</Id>
+              <IsDisabled>false</IsDisabled>
+              <Name>Send Request</Name>
+              <Assertions />
+              <OnErrorBehavior>ResumeNext</OnErrorBehavior>
+              <DisplayRequest>PUT /pet HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": 3,
+  "category": {
+    "id": 3,
+    "name": "Cats"
+  },
+  "name": "Cat 3",
+  "photoUrls": [
+    "url1",
+    "url2"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "tag3"
+    },
+    {
+      "id": 2,
+      "name": "tag4"
+    }
+  ],
+  "status": "pending"
+}
+</DisplayRequest>
+              <Request>PUT /pet HTTP/1.1
+Content-Type: application/json
+
+{
+  "id": 3,
+  "category": {
+    "id": 3,
+    "name": "Cats"
+  },
+  "name": "Cat 3",
+  "photoUrls": [
+    "url1",
+    "url2"
+  ],
+  "tags": [
+    {
+      "id": 1,
+      "name": "tag3"
+    },
+    {
+      "id": 2,
+      "name": "tag4"
+    }
+  ],
+  "status": "pending"
+}
+</Request>
+              <RequestMetadataId>1a372ac9-62fa-5e9c-7e12-252781730ced</RequestMetadataId>
+              <RequestOptions>
+                <AuthenticationMode>Anonymous</AuthenticationMode>
+                <Credential>Anonymous</Credential>
+                <HttpHeaders />
+                <Password i:nil="true" />
+                <ProxyMode>System</ProxyMode>
+                <Token i:nil="true" />
+                <UseMToM>false</UseMToM>
+                <UsePreemptiveAuthentication>false</UsePreemptiveAuthentication>
+                <UseSoap12>false</UseSoap12>
+                <Username i:nil="true" />
+                <X509Certificate i:nil="true" />
+              </RequestOptions>
+              <UriTemplate>https://petstore.swagger.io/v2</UriTemplate>
+            </TestStepBase>
+          </Steps>
+        </TestCase>
+        <TestCase>
+          <Context />
+          <CustomVariables />
+          <Description i:nil="true" />
+          <Id>64b04fb8-925e-4c45-b1e8-1c452b4bd955</Id>
+          <IsDisabled>false</IsDisabled>
+          <Name>getPets and check name updated</Name>
+          <OnErrorBehavior>ResumeNext</OnErrorBehavior>
+          <Steps>
+            <TestStepBase i:type="SendRequestTestStep">
+              <Context />
+              <CustomVariables />
+              <Description i:nil="true" />
+              <Id>14cf9b1b-1246-49f8-b6c0-852f942aea6e</Id>
+              <IsDisabled>false</IsDisabled>
+              <Name>Send Request</Name>
+              <Assertions>
+                <AbstractAssertion i:type="ContainsAssertion">
+                  <Id>890e18a0-2dc0-4cb1-852c-c790cd2d7a2c</Id>
+                  <IsDisabled>false</IsDisabled>
+                  <Name>Check if  is found in RequestObject</Name>
+                  <ExpectedResult i:nil="true" />
+                  <IsCaseSensitive>false</IsCaseSensitive>
+                  <MessagePart>ResponseObject</MessagePart>
+                  <UseRegularExpression>false</UseRegularExpression>
+                  <Pattern>"name": "Cat 3"</Pattern>
+                </AbstractAssertion>
+                <AbstractAssertion i:type="NotContainsAssertion">
+                  <Id>3b283355-baf2-4805-bbbe-9a1b607732b1</Id>
+                  <IsDisabled>false</IsDisabled>
+                  <Name>Check if  is not found in RequestObject</Name>
+                  <ExpectedResult i:nil="true" />
+                  <IsCaseSensitive>false</IsCaseSensitive>
+                  <MessagePart>ResponseObject</MessagePart>
+                  <UseRegularExpression>false</UseRegularExpression>
+                  <Pattern>"name": "Cat 4"</Pattern>
+                </AbstractAssertion>
+              </Assertions>
+              <OnErrorBehavior>ResumeNext</OnErrorBehavior>
+              <DisplayRequest>GET /pet/3 HTTP/1.1
+api_key: 
+Content-Type: application/json
+
+</DisplayRequest>
+              <Request>GET /pet/3 HTTP/1.1
+api_key: 
+Content-Type: application/json
+
+</Request>
+              <RequestMetadataId>8c3f4176-04d0-5dc9-a570-99b8812a7176</RequestMetadataId>
+              <RequestOptions>
+                <AuthenticationMode>Anonymous</AuthenticationMode>
+                <Credential>Anonymous</Credential>
+                <HttpHeaders />
+                <Password i:nil="true" />
+                <ProxyMode>System</ProxyMode>
+                <Token i:nil="true" />
+                <UseMToM>false</UseMToM>
+                <UsePreemptiveAuthentication>false</UsePreemptiveAuthentication>
+                <UseSoap12>false</UseSoap12>
+                <Username i:nil="true" />
+                <X509Certificate i:nil="true" />
+              </RequestOptions>
+              <UriTemplate>https://petstore.swagger.io/v2</UriTemplate>
+            </TestStepBase>
+          </Steps>
+        </TestCase>
+      </TestCases>
+    </TestSuite>
+  </TestSuites>
+</AutomationProject>
