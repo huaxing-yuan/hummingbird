@@ -46,11 +46,11 @@
   -->
   <ItemGroup>
     <Reference Include="Hummingbird.TestFramework">
-      <HintPath>D:\Projets\Hummingbird ALM\Hummingbird ALM\Hummingbird.TestManager\bin\Debug\Hummingbird.TestFramework.dll</HintPath>
+      <HintPath>D:\Projets\Hummingbird ALM\Hummingbird ALM\Hummingbird.TestManager\bin\PRO_DEBUG\Hummingbird.TestFramework.dll</HintPath>
 	  <Private>False</Private>
     </Reference>
     <Reference Include="Hummingbird.UI">
-      <HintPath>D:\Projets\Hummingbird ALM\Hummingbird ALM\Hummingbird.TestManager\bin\Debug\Hummingbird.UI.dll</HintPath>
+      <HintPath>D:\Projets\Hummingbird ALM\Hummingbird ALM\Hummingbird.TestManager\bin\PRO_DEBUG\Hummingbird.UI.dll</HintPath>
 	  <Private>False</Private>
     </Reference>
     <Reference Include="PresentationCore" />

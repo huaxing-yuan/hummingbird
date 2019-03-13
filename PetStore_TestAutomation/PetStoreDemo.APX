@@ -5,6 +5,7 @@
   <Description i:nil="true" />
   <Id>b968f7a9-622d-419d-81d4-332c94939918</Id>
   <IsDisabled>false</IsDisabled>
+  <IsExpanded>true</IsExpanded>
   <Name>PetStore</Name>
   <CreatedBy>Huaxing YUAN</CreatedBy>
   <CreationDate xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
@@ -12,7 +13,7 @@
     <d2p1:OffsetMinutes>120</d2p1:OffsetMinutes>
   </CreationDate>
   <LastSaveDate xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
-    <d2p1:DateTime>2018-12-07T22:10:17.6264769Z</d2p1:DateTime>
+    <d2p1:DateTime>2019-02-05T19:56:29.0952466Z</d2p1:DateTime>
     <d2p1:OffsetMinutes>60</d2p1:OffsetMinutes>
   </LastSaveDate>
   <LastSavedBy>Huaxing YUAN</LastSavedBy>
@@ -583,6 +584,7 @@
         <Minor>0</Minor>
       </MinFrameworkVersion>
       <Name>Hummingbird Airlines</Name>
+      <ProfessionalOnly>false</ProfessionalOnly>
       <Version>
         <Build>6848</Build>
         <Major>1</Major>
@@ -610,6 +612,7 @@
         <Minor>0</Minor>
       </MinFrameworkVersion>
       <Name>Swagger Pet store</Name>
+      <ProfessionalOnly>false</ProfessionalOnly>
       <Version>
         <Build>6858</Build>
         <Major>1</Major>
@@ -624,6 +627,7 @@
       <Description i:nil="true" />
       <Id>5b0bb371-22ad-4947-a730-af32621dd071</Id>
       <IsDisabled>false</IsDisabled>
+      <IsExpanded>true</IsExpanded>
       <Name>pet</Name>
       <TestCases>
         <TestCase>
@@ -632,6 +636,7 @@
           <Description i:nil="true" />
           <Id>107901f3-33ce-477e-bcec-c717a6d91250</Id>
           <IsDisabled>false</IsDisabled>
+          <IsExpanded>true</IsExpanded>
           <Name>findPets</Name>
           <OnErrorBehavior>ResumeNext</OnErrorBehavior>
           <Steps>
@@ -641,6 +646,7 @@
               <Description i:nil="true" />
               <Id>f833a082-3967-40c6-951f-978199d72fbe</Id>
               <IsDisabled>false</IsDisabled>
+              <IsExpanded>false</IsExpanded>
               <Name>findPetsByStatus</Name>
               <Assertions>
                 <AbstractAssertion i:type="ContainsAssertion">
@@ -685,6 +691,7 @@ Content-Type: application/json
               <Description i:nil="true" />
               <Id>91345f14-7a12-4c25-9fd9-54e3a1d3fbf2</Id>
               <IsDisabled>false</IsDisabled>
+              <IsExpanded>false</IsExpanded>
               <Name>findPetsByTags</Name>
               <Assertions>
                 <AbstractAssertion i:type="ContainsAssertion">
@@ -731,6 +738,7 @@ Content-Type: application/json
           <Description i:nil="true" />
           <Id>d15790b8-9d37-4f7c-ac7d-1fa0c9e76ee0</Id>
           <IsDisabled>false</IsDisabled>
+          <IsExpanded>true</IsExpanded>
           <Name>updatePets name Cat 4</Name>
           <OnErrorBehavior>ResumeNext</OnErrorBehavior>
           <Steps>
@@ -740,6 +748,7 @@ Content-Type: application/json
               <Description i:nil="true" />
               <Id>1772bc84-b0e1-49aa-b825-5d84db451e1a</Id>
               <IsDisabled>false</IsDisabled>
+              <IsExpanded>false</IsExpanded>
               <Name>Send Request</Name>
               <Assertions />
               <OnErrorBehavior>ResumeNext</OnErrorBehavior>
@@ -821,6 +830,7 @@ Content-Type: application/json
           <Description i:nil="true" />
           <Id>2da330c6-885d-40e6-b507-231adc7b7cd6</Id>
           <IsDisabled>false</IsDisabled>
+          <IsExpanded>true</IsExpanded>
           <Name>getPets</Name>
           <OnErrorBehavior>ResumeNext</OnErrorBehavior>
           <Steps>
@@ -830,6 +840,7 @@ Content-Type: application/json
               <Description i:nil="true" />
               <Id>233ea301-3ae7-4e3c-828c-cdbea5297f21</Id>
               <IsDisabled>false</IsDisabled>
+              <IsExpanded>false</IsExpanded>
               <Name>getPets</Name>
               <Assertions>
                 <AbstractAssertion i:type="ContainsAssertion">
@@ -898,6 +909,7 @@ Content-Type: application/json
           <Description i:nil="true" />
           <Id>07b691cc-60dd-40d7-9a6c-5f1875004826</Id>
           <IsDisabled>false</IsDisabled>
+          <IsExpanded>true</IsExpanded>
           <Name>updatePets name Cat 3</Name>
           <OnErrorBehavior>ResumeNext</OnErrorBehavior>
           <Steps>
@@ -907,6 +919,7 @@ Content-Type: application/json
               <Description i:nil="true" />
               <Id>7f2b69fd-11cd-4ac8-9085-412982fe99e2</Id>
               <IsDisabled>false</IsDisabled>
+              <IsExpanded>false</IsExpanded>
               <Name>Send Request</Name>
               <Assertions />
               <OnErrorBehavior>ResumeNext</OnErrorBehavior>
@@ -988,6 +1001,7 @@ Content-Type: application/json
           <Description i:nil="true" />
           <Id>64b04fb8-925e-4c45-b1e8-1c452b4bd955</Id>
           <IsDisabled>false</IsDisabled>
+          <IsExpanded>true</IsExpanded>
           <Name>getPets and check name updated</Name>
           <OnErrorBehavior>ResumeNext</OnErrorBehavior>
           <Steps>
@@ -997,6 +1011,7 @@ Content-Type: application/json
               <Description i:nil="true" />
               <Id>14cf9b1b-1246-49f8-b6c0-852f942aea6e</Id>
               <IsDisabled>false</IsDisabled>
+              <IsExpanded>false</IsExpanded>
               <Name>Send Request</Name>
               <Assertions>
                 <AbstractAssertion i:type="ContainsAssertion">
